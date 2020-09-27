@@ -6,4 +6,5 @@
 <li style="text-align: center;"><strong><span style="color: #000000;"><a href="https://redstarksten.github.io/kernel.html" target="_blank" rel="noopener">Kernel Download</a></span></strong></li>
 <li style="text-align: center;"><strong><span style="color: #000000;"><a href="https://redstarksten.github.io/tutorial.html" target="_blank" rel="noopener">Tutorial</a></span></strong></li>
 <li style="text-align: center;"><strong><span style="color: #000000;"><a href="https://redstarksten.github.io/changelog.html" target="_blank" rel="noopener">Changelog</a></span></strong></li>
+<li style="text-align: center;"><strong><a href="https://t.me/bukandewa" target="_blank" rel="noopener">Contact</a></strong></li>
 </ul>
