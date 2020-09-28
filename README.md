@@ -13,5 +13,3 @@
 
 
 ![redstarksten's github stats](https://github-readme-stats.vercel.app/api?username=redstarksten&show_icons=true&hide_border=true)
-
-⭐️ From [LovelyBuggies](https://github.com/lovelybuggies)
