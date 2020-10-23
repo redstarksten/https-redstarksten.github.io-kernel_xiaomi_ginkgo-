@@ -1,0 +1,6 @@
+make[1]: Entering directory '/home/bukandewa/Android_Xiaomi/out'
+  GEN     ./Makefile
+scripts/kconfig/conf  --silentoldconfig Kconfig
+  CHK     include/config/kernel.release
+  UPD     include/config/kernel.release
+make[1]: Leaving directory '/home/bukandewa/Android_Xiaomi/out'

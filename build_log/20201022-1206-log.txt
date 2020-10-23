@@ -1,0 +1,4 @@
+make[1]: Entering directory '/home/bukandewa/A11/out'
+  GEN     ./Makefile
+scripts/kconfig/conf  --silentoldconfig Kconfig
+make[1]: Leaving directory '/home/bukandewa/A11/out'
