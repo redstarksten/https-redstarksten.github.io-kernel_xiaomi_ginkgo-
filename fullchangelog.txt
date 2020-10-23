@@ -1,0 +1,62 @@
+264a9ba (2 seconds ago)	 20201023-2238 build log and last 200 log
+07ed42c (7 hours ago)	 20201023-1509 build log
+b5d1f2a (8 hours ago)	 20201023-1451 build log
+a956f5a (2 days ago)	 20201021-1536 build log
+a1e1b46 (5 days ago)	 20201018-2322 build log
+50ea987 (5 days ago)	 20201018-2255 build log
+0d24a6e (5 days ago)	 edit changelog.html
+0c7c225 (6 days ago)	 20201018-0011 build log
+7936ba7 (6 days ago)	 20201017-2356 build log
+0d6a3ba (6 days ago)	 20201017-2145 build log
+e73522b (6 days ago)	 20201017-1805 build log
+a99572d (7 days ago)	 20201017-1042 build log
+564c410 (7 days ago)	 20201017-0357 build log
+691f30f (7 days ago)	 20201016-2208 build log
+c5b3eb4 (8 days ago)	 20201015-1532 build log
+7f51933 (8 days ago)	 20201015-1141 build log
+bcd3fb5 (8 days ago)	 20201015-1114 build log
+1a440ad (9 days ago)	 20201015-1058 build log
+c9b1658 (9 days ago)	 20201015-1028 build log
+aa7c407 (9 days ago)	 20201015-0902 build log
+de8b86b (9 days ago)	 20201015-0836 build log
+f060c03 (9 days ago)	 20201015-0805 build log
+361bfa8 (9 days ago)	 20201015-0729 build log
+c52276f (9 days ago)	 20201014-1915 build log
+ee40ca4 (9 days ago)	 add build_log.txt
+4ae170b (10 days ago)	 edit tutorial.html
+6635ba8 (12 days ago)	 edit changelog.html
+091ab0e (2 weeks ago)	 edit changelog.html
+1ab09d3 (2 weeks ago)	 edit changelog.html
+8780755 (4 weeks ago)	 Update index.html
+036bdc7 (4 weeks ago)	 Update index.html
+73bdbe3 (4 weeks ago)	 Update index.html
+a51e115 (4 weeks ago)	 Update README.md
+2f9cd49 (4 weeks ago)	 Update README.md
+3b31101 (4 weeks ago)	 Update README.md
+717ec53 (4 weeks ago)	 Update README.md
+0c096b8 (4 weeks ago)	 Update README.md
+e08c9a0 (4 weeks ago)	 Update README.md
+e95fe83 (4 weeks ago)	 Create index.html
+d7dc584 (4 weeks ago)	 Update README.md
+cf6207d (4 weeks ago)	 Update README.md
+c9e5490 (4 weeks ago)	 Update README.md
+d66ee89 (4 weeks ago)	 Update README.md
+7588038 (4 weeks ago)	 Update README.md
+b18645f (4 weeks ago)	 Update README.md
+24af30a (4 weeks ago)	 Add files via upload
+4ae742e (4 weeks ago)	 Create changelog.html
+cd1ffee (4 weeks ago)	 Create tutorial.html
+cdc57ac (4 weeks ago)	 Rename StarkX-Kernel.html to kernel.html
+147b629 (4 weeks ago)	 Update and rename 404.html to StarkX-Kernel.html
+a1209db (4 weeks ago)	 Update README.md
+c543846 (4 weeks ago)	 Update README.md
+0b5a37c (4 weeks ago)	 Update README.md
+f2fec83 (4 weeks ago)	 Update README.md
+dd927df (4 weeks ago)	 Update README.md
+3b680b9 (4 weeks ago)	 Update README.md
+0efc803 (4 weeks ago)	 Create test.txt
+b770f3f (4 weeks ago)	 Merge pull request #1 from redstarksten/circleci-project-setup
+a54cb60 (4 weeks ago)	 Add .circleci/config.yml
+76aedce (4 weeks ago)	 Update README.md
+e33519b (4 weeks ago)	 Create 404.html
+0388b4e (4 weeks ago)	 Initial commit
