@@ -1,200 +1,200 @@
-fa792f79389c (31 hours ago)	 Merge tag 'LA.UM.8.1.r1-16200-sm8150.0' into 11.0
-04596ce6dff1 (3 days ago)	 Merge tag 'LA.UM.8.11.1.r1-00900-QCM6125.0' into 11.0
-980ada31575d (6 days ago)	 Merge branch '11.0' of https://github.com/redstarksten/kernel_xiaomi_ginkgo_R into 11.0
-bb2889863d03 (6 days ago)	 gpu: drm: msm: add event to event_list after register is successful
-100333bc87c1 (6 days ago)	 Some minor changes in arch/arm64/boot/dts/qcom
-985dabaf6c54 (7 days ago)	 Merge tag 'v4.14.202' into 11.0
-5b7a52cd2eef (7 days ago)	 Linux 4.14.202
-ead2d9d18dda (7 days ago)	 crypto: qat - check cipher length for aead AES-CBC-HMAC-SHA
-aafb6c5652ef (7 days ago)	 crypto: bcm - Verify GCM/CCM key length in setkey
-e47af1712274 (7 days ago)	 drivers/net/ethernet/marvell/mvmdio.c: Fix non OF case
-e2b6b34324c4 (7 days ago)	 reiserfs: Fix oops during mount
-bd0bef47c514 (7 days ago)	 reiserfs: Initialize inode keys properly
-491bba5c9a63 (7 days ago)	 USB: serial: ftdi_sio: add support for FreeCalypso JTAG+UART adapters
-5ba0089e4193 (7 days ago)	 USB: serial: pl2303: add device-id for HP GC device
-709fd7514032 (7 days ago)	 staging: comedi: check validity of wMaxPacketSize of usb endpoints found
-c87efc02d140 (7 days ago)	 USB: serial: option: Add Telit FT980-KS composition
-2da5a3b69818 (7 days ago)	 USB: serial: option: add Cellient MPL200 card
-24217072bf90 (7 days ago)	 media: usbtv: Fix refcounting mixup
-03523cde108e (7 days ago)	 Bluetooth: Disconnect if E0 is used for Level 4
-9bc82009a225 (7 days ago)	 Bluetooth: Fix update of connection state in `hci_encrypt_cfm`
-7c9748f455b9 (7 days ago)	 Bluetooth: Consolidate encryption handling in hci_encrypt_cfm
-1e4e736e04b9 (7 days ago)	 Bluetooth: MGMT: Fix not checking if BT_HS is enabled
-2acf87436517 (7 days ago)	 Bluetooth: L2CAP: Fix calling sk_filter on non-socket based channel
-d53b1e94d08c (7 days ago)	 Bluetooth: A2MP: Fix not initializing all members
-8c773157951b (7 days ago)	 Bluetooth: fix kernel oops in store_pending_adv_report
-090814989942 (8 days ago)	 Delete build.sh
-efe2acb9d7d4 (8 days ago)	 Delete log
-ff37a7530ed7 (8 days ago)	 Delete git
-410a4e970488 (8 days ago)	 Merge tag 'LA.UM.8.9.1.r1-00600-QCS610.0' into 11.0
-51042f5d6217 (9 days ago)	 Merge tag 'v4.14.201' into 11.0
-a21a9b514b88 (10 days ago)	 Linux 4.14.201
-f578c4fbe49d (10 days ago)	 net: usb: rtl8150: set random MAC address when set_ethernet_addr() fails
-b7107a74cac7 (10 days ago)	 mm: khugepaged: recalculate min_free_kbytes after memory hotplug as expected by khugepaged
-387026b76afb (10 days ago)	 mmc: core: don't set limits.discard_granularity as 0
-269e27425037 (10 days ago)	 perf: Fix task_function_call() error handling
-c36782a0c96d (10 days ago)	 rxrpc: Fix server keyring leak
-c11f69047175 (10 days ago)	 rxrpc: Fix some missing _bh annotations on locking conn->state_lock
-690a6ce474b3 (10 days ago)	 rxrpc: Downgrade the BUG() for unsupported token type in rxrpc_read()
-a9fe24352d4c (10 days ago)	 rxrpc: Fix rxkad token xdr encoding
-96e2bfa75b94 (10 days ago)	 net: usb: ax88179_178a: fix missing stop entry in driver_info
-71e6cdeb7da1 (10 days ago)	 mdio: fix mdio-thunder.c dependency & build error
-1ee2fd6238c5 (10 days ago)	 bonding: set dev->needed_headroom in bond_setup_by_slave()
-286e833e3b2c (10 days ago)	 xfrm: Use correct address family in xfrm_state_find
-8e2cd791e12c (10 days ago)	 platform/x86: fix kconfig dependency warning for FUJITSU_LAPTOP
-32102f436ef8 (10 days ago)	 net: stmmac: removed enabling eee in EEE set callback
-2bb379108c4a (10 days ago)	 xfrm: clone whole liftime_cur structure in xfrm_do_migrate
-f0da697e44c5 (10 days ago)	 xfrm: clone XFRMA_SEC_CTX in xfrm_do_migrate
-3f272fc500f6 (10 days ago)	 xfrm: clone XFRMA_REPLAY_ESN_VAL in xfrm_do_migrate
-fbd18651670b (10 days ago)	 drm/amdgpu: prevent double kfree ttm->sg
-4928ce41c884 (10 days ago)	 openvswitch: handle DNAT tuple collision
-fa07863c8387 (10 days ago)	 net: team: fix memory leak in __team_options_register
-37c0cdc3b206 (10 days ago)	 team: set dev->needed_headroom in team_setup_by_port()
-9775dd63d526 (10 days ago)	 sctp: fix sctp_auth_init_hmacs() error path
-95ee9fe59ec8 (10 days ago)	 i2c: meson: fix clock setting overwrite
-622d6a978516 (10 days ago)	 cifs: Fix incomplete memory allocation on setxattr path
-f62dfdf33185 (10 days ago)	 mm/khugepaged: fix filemap page_to_pgoff(page) != offset
-7a8ac42c6211 (10 days ago)	 macsec: avoid use-after-free in macsec_handle_frame()
-736214625ae7 (10 days ago)	 ftrace: Move RCU is watching check after recursion check
-d53cafafd80f (10 days ago)	 Btrfs: fix unexpected failure of nocow buffered writes after snapshotting when low on space
-6e07e6e1d305 (10 days ago)	 mtd: rawnand: sunxi: Fix the probe error path
-00bd93b3e430 (10 days ago)	 perf top: Fix stdio interface input handling with glibc 2.28+
-6affee7ddf0f (10 days ago)	 driver core: Fix probe_count imbalance in really_probe()
-e9ca1a08b162 (10 days ago)	 platform/x86: thinkpad_acpi: re-initialize ACPI buffer size when reuse
-515ded02bc4b (10 days ago)	 platform/x86: thinkpad_acpi: initialize tp_nvram_state variable
-681ba234ed33 (10 days ago)	 usermodehelper: reset umask to default before executing user process
-7ade86e765ab (10 days ago)	 net: wireless: nl80211: fix out-of-bounds access in nl80211_del_key()
-30386c13a1bf (10 days ago)	 fbcon: Fix global-out-of-bounds read in fbcon_get_font()
-ab5737277fce (10 days ago)	 Revert "ravb: Fixed to be able to unload modules"
-2832691e0106 (10 days ago)	 Fonts: Support FONT_EXTRA_WORDS macros for built-in fonts
-052841a35d32 (10 days ago)	 fbdev, newport_con: Move FONT_EXTRA_WORDS macros into linux/font.h
-328ec6286a78 (10 days ago)	 drm/syncobj: Fix drm_syncobj_handle_to_fd refcount leak
-60634d81cb43 (10 days ago)	 netfilter: ctnetlink: add a range check for l3/l4 protonum
-a3915080e95d (10 days ago)	 ep_create_wakeup_source(): dentry name can change under you...
-69c144b13db2 (10 days ago)	 epoll: EPOLL_CTL_ADD: close the race in decision to take fast path
-4aefd05cfdb3 (10 days ago)	 epoll: replace ->visited/visited_list with generation count
-23fb662b13e4 (10 days ago)	 epoll: do not insert into poll queues until all sanity checks are done
-5b08356f184a (10 days ago)	 net/packet: fix overflow in tpacket_rcv
-02555f63dab2 (10 days ago)	 random32: Restore __latent_entropy attribute on net_rand_state
-dbf317d1ab99 (10 days ago)	 Input: trackpoint - enable Synaptics trackpoints
-4445ef3be31a (10 days ago)	 i2c: cpm: Fix i2c_ram structure
-89fa35baceab (10 days ago)	 iommu/exynos: add missing put_device() call in exynos_iommu_of_xlate()
-a98fcb2fc19b (10 days ago)	 clk: samsung: exynos4: mark 'chipid' clock as CLK_IGNORE_UNUSED
-badb7483a81d (10 days ago)	 nfs: Fix security label length not being reset
-276e70368794 (10 days ago)	 pinctrl: mvebu: Fix i2c sda definition for 98DX3236
-d32430f927a0 (10 days ago)	 nvme-fc: fail new connections to a deleted host or remote port
-c90acce3cb66 (10 days ago)	 spi: fsl-espi: Only process interrupts for expected events
-202385c10e59 (10 days ago)	 mac80211: do not allow bigger VHT MPDUs than the hardware supports
-9f9f2427fd69 (10 days ago)	 drivers/net/wan/hdlc: Set skb->protocol before transmitting
-bbcc35888257 (10 days ago)	 drivers/net/wan/lapbether: Make skb->protocol consistent with the header
-e53e01eb8eea (10 days ago)	 rndis_host: increase sleep time in the query-response loop
-04dd581252b9 (10 days ago)	 net: dec: de2104x: Increase receive ring size for Tulip
-c7d5ed6d1cae (10 days ago)	 drm/sun4i: mixer: Extend regmap max_register
-7ebd03c97b10 (10 days ago)	 drivers/net/wan/hdlc_fr: Add needed_headroom for PVC devices
-297a1d703668 (10 days ago)	 drm/amdgpu: restore proper ref count in amdgpu_display_crtc_set_config
-c637ed42f0bb (10 days ago)	 Input: i8042 - add nopnp quirk for Acer Aspire 5 A515
-ceb35731765d (10 days ago)	 gpio: tc35894: fix up tc35894 interrupt configuration
-a8cb5851a862 (10 days ago)	 USB: gadget: f_ncm: Fix NDP16 datagram validation
-7e29f155e890 (10 days ago)	 net: virtio_vsock: Enhance connection semantics
-8a3966406670 (10 days ago)	 vsock/virtio: add transport parameter to the virtio_transport_reset_no_sock()
-b40b29b615ad (10 days ago)	 vsock/virtio: stop workers during the .remove()
-2404380b95ee (10 days ago)	 vsock/virtio: use RCU to avoid use-after-free on the_virtio_vsock
-784bd10ae3ab (11 days ago)	 Minor changes : - Fix warning tune.c - Fix warning sysctl.c - Add kcal support
-3cc99b9b1cf5 (11 days ago)	 Minor changes : - Fix warning tune.c - Fix warning sysctl.c - Add kcal support
-2b0fd24e7f43 (11 days ago)	 Merge commit '155236d5fa04072124a0c7f555ee03ea9cd1f3fc' into kernel.lnx.4.14.r37-rel
-04bae5547370 (11 days ago)	 net/wireguard: add wireguard importer
-565b7ecfb16a (11 days ago)	 minor changes
-bd389c176656 (13 days ago)	 Merge tag 'v4.14.200' into 11.0
-3efcd95c680e (2 weeks ago)	 Merge "Revert "msm: vidc: Update VP9 minimum buffer count"" into kernel.lnx.4.14.r4-rel
-ccb6589d8ec5 (2 weeks ago)	 Merge 646580114302f29ca288b7c8eb7b37cc2ce135a7 on remote branch
-d1691f8f4817 (2 weeks ago)	 Revert "msm: vidc: Update VP9 minimum buffer count"
-155236d5fa04 (3 weeks ago)	 power: smb5: Fix LPD flag for PMI632
-bae31eef2a16 (3 weeks ago)	 Linux 4.14.200
-b7d9b2ec6d95 (3 weeks ago)	 ata: sata_mv, avoid trigerrable BUG_ON
-306a1c5b5683 (3 weeks ago)	 ata: make qc_prep return ata_completion_errors
-5639b8cb857f (3 weeks ago)	 ata: define AC_ERR_OK
-b6d38137c19f (3 weeks ago)	 lib/string.c: implement stpcpy
-f082d13c95bb (3 weeks ago)	 mm, THP, swap: fix allocating cluster for swapfile by mistake
-2295608b44c9 (3 weeks ago)	 kprobes: Fix to check probe enabled before disarm_kprobe_ftrace()
-969754339691 (3 weeks ago)	 s390/dasd: Fix zero write for FBA devices
-588ff5207a10 (3 weeks ago)	 MIPS: Add the missing 'CPU_1074K' into __get_cpu_type()
-9c3c9d37ae1e (3 weeks ago)	 ALSA: asihpi: fix iounmap in error handler
-8413d9717513 (3 weeks ago)	 batman-adv: mcast: fix duplicate mcast packets in BLA backbone from mesh
-5b34723ef18a (3 weeks ago)	 batman-adv: Add missing include for in_interrupt()
-847d6719fb67 (3 weeks ago)	 net: qed: RDMA personality shouldn't fail VF load
-18d2e3a1c0bb (3 weeks ago)	 drm/vc4/vc4_hdmi: fill ASoC card owner
-b6e7f0e4089f (3 weeks ago)	 mac802154: tx: fix use-after-free
-2d494b6143aa (3 weeks ago)	 batman-adv: mcast/TT: fix wrongly dropped or rerouted packets
-354e25d6fc06 (3 weeks ago)	 atm: eni: fix the missed pci_disable_device() for eni_init_one()
-567b62686e1c (3 weeks ago)	 batman-adv: bla: fix type misuse for backbone_gw hash indexing
-e201ea36e3ec (3 weeks ago)	 mwifiex: Increase AES key storage size to 256 bits
-47662437672b (3 weeks ago)	 clocksource/drivers/h8300_timer8: Fix wrong return value in h8300_8timer_init()
-6bc01e3cf5f0 (3 weeks ago)	 ieee802154/adf7242: check status of adf7242_read_reg
-6ef8ad0605b0 (3 weeks ago)	 ieee802154: fix one possible memleak in ca8210_dev_com_init
-a59182b3c136 (3 weeks ago)	 objtool: Fix noreturn detection for ignored functions
-3e64bb76a421 (3 weeks ago)	 i2c: core: Call i2c_acpi_install_space_handler() before i2c_acpi_register_devices()
-adf0d3483b0d (3 weeks ago)	 s390/init: add missing __init annotations
-df7f40323573 (3 weeks ago)	 btrfs: qgroup: fix data leak caused by race between writeback and truncate
-197211ac41d9 (3 weeks ago)	 vfio/pci: fix racy on error and request eventfd ctx
-3650a8cd89c6 (3 weeks ago)	 selftests/x86/syscall_nt: Clear weird flags after each test
-117413cd30aa (3 weeks ago)	 scsi: libfc: Skip additional kref updating work event
-cd6084652261 (3 weeks ago)	 scsi: libfc: Handling of extra kref
-4e7be96ae045 (3 weeks ago)	 cifs: Fix double add page to memcg when cifs_readpages
-c415d51721e4 (3 weeks ago)	 vfio/pci: Clear error and request eventfd ctx after releasing
-52f7d8a4b529 (3 weeks ago)	 x86/speculation/mds: Mark mds_user_clear_cpu_buffers() __always_inline
-5426f2dae950 (3 weeks ago)	 mtd: parser: cmdline: Support MTD names containing one or more colons
-da45411b2e30 (3 weeks ago)	 rapidio: avoid data race between file operation callbacks and mport_cdev_add().
-6d9fdd1325a2 (3 weeks ago)	 mm/swap_state: fix a data race in swapin_nr_pages
-75bd1d78e8a5 (3 weeks ago)	 ceph: fix potential race in ceph_check_caps
-8a42f87c75df (3 weeks ago)	 mtd: rawnand: omap_elm: Fix runtime PM imbalance on error
-5c4c75707f38 (3 weeks ago)	 perf kcore_copy: Fix module map when there are no modules loaded
-5c339f2c9a3e (3 weeks ago)	 perf util: Fix memory leak of prefix_if_not_in
-c467ff965b02 (3 weeks ago)	 vfio/pci: fix memory leaks of eventfd ctx
-d066cd8e1b55 (3 weeks ago)	 btrfs: don't force read-only after error in drop snapshot
-5a174aebcf54 (3 weeks ago)	 usb: dwc3: Increase timeout for CmdAct cleared by device controller
-27d185697322 (3 weeks ago)	 printk: handle blank console arguments passed in.
-8dfc0906bcaf (3 weeks ago)	 drm/nouveau/debugfs: fix runtime pm imbalance on error
-de534b39a287 (3 weeks ago)	 e1000: Do not perform reset in reset_task if we are already down
-52ee765c0389 (3 weeks ago)	 arm64/cpufeature: Drop TraceFilt feature exposure from ID_DFR0 register
-2d8e08025aea (3 weeks ago)	 USB: EHCI: ehci-mv: fix less than zero comparison of an unsigned int
-fc8f9b9fd1df (3 weeks ago)	 fuse: don't check refcount after stealing page
-ac9867f43981 (3 weeks ago)	 powerpc/traps: Make unrecoverable NMIs die instead of panic
-bbbe8afb08ff (3 weeks ago)	 ALSA: hda: Fix potential race in unsol event handler
-3d01f225c61c (3 weeks ago)	 tty: serial: samsung: Correct clock selection logic
-34307affd969 (3 weeks ago)	 USB: EHCI: ehci-mv: fix error handling in mv_ehci_probe()
-d16f05223ad8 (3 weeks ago)	 Bluetooth: Handle Inquiry Cancel error after Inquiry Complete
-e9d79b176ffe (3 weeks ago)	 phy: samsung: s5pv210-usb2: Add delay after reset
-14a4b1f445e5 (3 weeks ago)	 power: supply: max17040: Correct voltage reading
-202e92689d7b (3 weeks ago)	 atm: fix a memory leak of vcc->user_back
-a1e224370323 (3 weeks ago)	 dt-bindings: sound: wm8994: Correct required supplies based on actual implementaion
-5134ffb94184 (3 weeks ago)	 arm64: cpufeature: Relax checks for AArch32 support at EL[0-2]
-18710ee3a03b (3 weeks ago)	 sparc64: vcc: Fix error return code in vcc_probe()
-6b32f02fab29 (3 weeks ago)	 staging:r8188eu: avoid skb_clone for amsdu to msdu conversion
-418b8afbecf6 (3 weeks ago)	 drivers: char: tlclk.c: Avoid data race between init and interrupt handler
-5b4937c16908 (3 weeks ago)	 bdev: Reduce time holding bd_mutex in sync in blkdev_close()
-f81fe6eb5b2e (3 weeks ago)	 KVM: Remove CREATE_IRQCHIP/SET_PIT2 race
-10f556247876 (3 weeks ago)	 serial: uartps: Wait for tx_empty in console setup
-e23d9c134235 (3 weeks ago)	 scsi: qedi: Fix termination timeouts in session logout
-4a98f638c104 (3 weeks ago)	 mm/mmap.c: initialize align_offset explicitly for vm_unmapped_area
-894d4db4a092 (3 weeks ago)	 mm/vmscan.c: fix data races using kswapd_classzone_idx
-36725917bfad (3 weeks ago)	 mm/filemap.c: clear page error before actual read
-b18b28d4e5a8 (3 weeks ago)	 mm/kmemleak.c: use address-of operator on section symbols
-05a4c45d0909 (3 weeks ago)	 NFS: Fix races nfs_page_group_destroy() vs nfs_destroy_unlinked_subrequests()
-78483c1c7741 (3 weeks ago)	 ALSA: usb-audio: Fix case when USB MIDI interface has more than one extra endpoint descriptor
-2e21f6673038 (3 weeks ago)	 ubifs: Fix out-of-bounds memory access caused by abnormal value of node_len
-64901930e7fb (3 weeks ago)	 svcrdma: Fix leak of transport addresses
-868367c52775 (3 weeks ago)	 SUNRPC: Fix a potential buffer overflow in 'svc_print_xprts()'
-1a5f5ff53382 (3 weeks ago)	 RDMA/rxe: Set sys_image_guid to be aligned with HW IB devices
-c59dfd1b2e31 (3 weeks ago)	 tools: gpio-hammer: Avoid potential overflow in main
-20bec895066e (3 weeks ago)	 cpufreq: powernv: Fix frame-size-overflow in powernv_cpufreq_work_fn
-4f6dcb50ae52 (3 weeks ago)	 perf cpumap: Fix snprintf overflow check
-a94174de4426 (3 weeks ago)	 serial: 8250: 8250_omap: Terminate DMA before pushing data on RX timeout
-e8be86c1d26c (3 weeks ago)	 serial: 8250_omap: Fix sleeping function called from invalid context during probe
-a978c01bd6ae (3 weeks ago)	 serial: 8250_port: Don't service RX FIFO if throttled
-6c4d07355d93 (3 weeks ago)	 tracing: Use address-of operator on section symbols
-e309db54d9e8 (3 weeks ago)	 rtc: ds1374: fix possible race condition
-80090ac63e90 (3 weeks ago)	 tpm: ibmvtpm: Wait for buffer to be set before proceeding
-27fd5aad275d (3 weeks ago)	 xfs: don't ever return a stale pointer from __xfs_dir3_free_read
-dcadd67205d6 (3 weeks ago)	 media: tda10071: fix unsigned sign extension overflow
-799263eb37a4 (3 weeks ago)	 Bluetooth: L2CAP: handle l2cap config request during open state
-02146c9f49d5 (3 weeks ago)	 scsi: aacraid: Disabling TM path and only processing IOP reset
+6be8517f94f8 (30 hours ago)	 AndroidKernel: Allow setting custom clang path via BoardConfig
+9faf8a5d00c9 (2 days ago)	 ARM64/configs: ginkgo: Enable LLVM Polly
+4df01d49bd70 (2 days ago)	 kbuild: Add support for LLVM's Polly optimizer
+c837e42c0c56 (2 days ago)	 arm64: Select ARCH_HAS_FAST_MULTIPLIER
+13bc9c5cdcc6 (2 days ago)	 ARM64/configs: ginkgo: Enable auditing
+08f43977a2c9 (2 days ago)	 ARM64/configs: ginkgo: Enable few cortex-A53 erratums
+b3baee65f30d (2 days ago)	 gpio: Remove validation while gpio probing
+335e62f9ef5d (4 days ago)	 ARM64/configs: ginkgo: Reduce input boost duration
+f9e88161e1a8 (4 days ago)	 Revert "ARM64/configs: ginkgo: Disable NQ NFC driver"
+c4da16a9e232 (4 days ago)	 Revert "ARM64/dts: ginkgo: Disable NQ NFC node"
+fab35cd38376 (5 days ago)	 power: Import ginkgo changes
+f746a98b3180 (5 days ago)	 Revert "power: supply: Import Xiaomi changes"
+e20073c31529 (5 days ago)	 Makefile: Keep -Werror enabled
+c81c6cf30aa0 (5 days ago)	 build-sdclang: Don't check for proton clang
+4c34353c674b (5 days ago)	 sched/tune: Increase the cgroup limit to 7
+68393d864af1 (5 days ago)	 sched: restrict iowait boost to tasks with prefer_idle
+e5c621b9c3aa (5 days ago)	 sched: reduce softirq conflicts with RT
+9eccce09866a (6 days ago)	 msm: qcom-geni-se: Make DFS clock table specific to SE of QUP
+cf3b42e6494f (6 days ago)	 serial: msm_geni_serial: fix debugfs issues
+bef8d1f30e77 (6 days ago)	 icnss: wrap debugfs code behind ifdef CONFIG_DEBUG_FS
+5467d157c760 (6 days ago)	 power: pmic-voter: wrap debugfs code behind ifdef
+4d527dc2a547 (7 days ago)	 clk: qcom: osm: avoid freq run over max_freq
+0c800c7d46b2 (8 days ago)	 Revert "cpu_input_boost: Pin min_freq to lowest when battery saver is on"
+f888c372aacb (8 days ago)	 ARM64/configs: ginkgo: Bump devfreq boost frequency to 5195 MB/s
+4ccf7265c027 (9 days ago)	 drm: atomic/sde_crtc: Do not boost CPU/DDR after input timeout
+7bf194a0155c (9 days ago)	 cpu_input_boost: Track input event times and expose timeout helper
+d67be6a5db0d (9 days ago)	 devfreq_boost: Track input event times and expose timeout helper
+e06b3d8a2e34 (9 days ago)	 ARM64/configs: Switch to sultan's CPU input boost
+b4a5ef03355d (9 days ago)	 mm: Boost CPU and DDR when memory pressure becomes high
+7ab5cdfd26b5 (9 days ago)	 drm: msm: sde: Boost CPU when a new frame is ready to be committed
+edb03462f28d (9 days ago)	 cpu_input_boost: Pin min_freq to lowest when battery saver is on
+28c98487e52a (9 days ago)	 cpu_input_boost: Get max boost freq from policy->cpuinfo.max_freq
+cc51d57e9183 (9 days ago)	 cpu_input_boost: Restore original min_freq after boosting
+b6b318f789d1 (9 days ago)	 cpu_input_boost: Expose input freqs and duration to userspace
+553aac76127b (9 days ago)	 cpu_input_boost: Add support for boost freqs lower than min freq
+3209294ea013 (9 days ago)	 cpu_input_boost: Mark boost kthread as performance critical
+a4d3a3140000 (9 days ago)	 cpu_input_boost: Introduce driver for event-based CPU boosting
+b059184519d9 (9 days ago)	 arm64: Improve parking of stopped CPUs
+a68bfba8d793 (9 days ago)	 Merge remote-tracking branch 'aosp/android-4.14-stable' into 11.0
+cc97bfca8544 (10 days ago)	 input: ft8719: Disable ESD check
+abee76b87180 (10 days ago)	 ARM64/dts: ginkgo: Disable ESD check
+be84da1dd835 (10 days ago)	 UPSTREAM: binder: fix UAF when releasing todo list
+20d78b87f48d (10 days ago)	 Merge 4.14.202 into android-4.14-stable
+5b7a52cd2eef (10 days ago)	 Linux 4.14.202
+ead2d9d18dda (10 days ago)	 crypto: qat - check cipher length for aead AES-CBC-HMAC-SHA
+aafb6c5652ef (10 days ago)	 crypto: bcm - Verify GCM/CCM key length in setkey
+e47af1712274 (10 days ago)	 drivers/net/ethernet/marvell/mvmdio.c: Fix non OF case
+e2b6b34324c4 (10 days ago)	 reiserfs: Fix oops during mount
+bd0bef47c514 (10 days ago)	 reiserfs: Initialize inode keys properly
+491bba5c9a63 (10 days ago)	 USB: serial: ftdi_sio: add support for FreeCalypso JTAG+UART adapters
+5ba0089e4193 (10 days ago)	 USB: serial: pl2303: add device-id for HP GC device
+709fd7514032 (10 days ago)	 staging: comedi: check validity of wMaxPacketSize of usb endpoints found
+c87efc02d140 (10 days ago)	 USB: serial: option: Add Telit FT980-KS composition
+2da5a3b69818 (10 days ago)	 USB: serial: option: add Cellient MPL200 card
+24217072bf90 (10 days ago)	 media: usbtv: Fix refcounting mixup
+03523cde108e (10 days ago)	 Bluetooth: Disconnect if E0 is used for Level 4
+9bc82009a225 (10 days ago)	 Bluetooth: Fix update of connection state in `hci_encrypt_cfm`
+7c9748f455b9 (10 days ago)	 Bluetooth: Consolidate encryption handling in hci_encrypt_cfm
+1e4e736e04b9 (10 days ago)	 Bluetooth: MGMT: Fix not checking if BT_HS is enabled
+2acf87436517 (10 days ago)	 Bluetooth: L2CAP: Fix calling sk_filter on non-socket based channel
+d53b1e94d08c (10 days ago)	 Bluetooth: A2MP: Fix not initializing all members
+8c773157951b (10 days ago)	 Bluetooth: fix kernel oops in store_pending_adv_report
+0914c4a9cd84 (10 days ago)	 ARM64/configs: ginkgo: Enable kernelspace battery saver
+818434b39a37 (10 days ago)	 sched: Block sched_boost when battery saver is active
+9ffa5d1dc5c0 (10 days ago)	 cpufreq: Prevent userspace boosts when battery saver is active
+63c0331b5861 (10 days ago)	 cpu_boost: Disable input boosting if battery saver is active
+5ea58fdc3c09 (10 days ago)	 cpufreq: schedutil: Disable iowait boost when battery saver is active
+8d7f3bbab641 (10 days ago)	 cpufreq: schedutil: Enable iowait boost by default
+e95b938dd85a (10 days ago)	 cpufreq: schedutil: Make iowait_boost optional
+b5a140767e97 (10 days ago)	 sched/tune: Disable boost & prefer_idle if battery saver is active
+a17ab5124ae1 (10 days ago)	 drivers/misc: Introduce kernelspace battery saver mode
+574f4b9d46a4 (11 days ago)	 ARM64/configs: ginkgo: Enable devfreq boost
+0dcc4dee9e2f (11 days ago)	 devfreq_boost: Adapt DDR node name for trinket
+a7aa00bba265 (11 days ago)	 drm/atomic: Boost DDR bus when committing a new frame
+d4727f19a0dd (11 days ago)	 devfreq_boost: Mark boost kthreads as performance critical
+ddbd318c9aee (11 days ago)	 devfreq_boost: convert to drm screen state notifier
+45ac3d82a094 (11 days ago)	 devfreq_boost: Introduce devfreq boost driver
+a60c437b0c52 (11 days ago)	 techpack/audio: Merge tag 'LA.UM.9.1.r1-07300-SMxxx0.0' into 11.0
+8a53a0f1174c (11 days ago)	 fw-api: Merge tag 'LA.UM.9.1.r1-07300-SMxxx0.0' into 11.0
+c54285015b33 (11 days ago)	 qca-wifi-host-cmn: Merge tag 'LA.UM.9.1.r1-07300-SMxxx0.0' into 11.0
+06d78b8c3347 (11 days ago)	 qcacld-3.0: Merge tag 'LA.UM.9.1.r1-07300-SMxxx0.0' into 11.0
+d14fae757c0e (11 days ago)	 Merge tag 'LA.UM.9.1.r1-07300-SMxxx0.0' into 11.0
+6b19a659eed0 (11 days ago)	 ARM64/configs: ginkgo: Disable unused erratums
+9879e7a01fe0 (11 days ago)	 adrenoboost: disable by default
+e9a1e1a8a3e1 (11 days ago)	 adrenoboost: finetuning algorithm - scale it a bit down
+5f8a0c443573 (11 days ago)	 msm_adreno_tz: add adrenoboost parameter
+20c7f8b79df4 (11 days ago)	 usb: gadget: Select default RNDIS over wireless controller if needed
+7280decfff51 (11 days ago)	 AndroidKernel: Don't build kernel twice for no reason
+40eb4068e4a2 (11 days ago)	 ARM64/dts: trinket: Use expedited RCU during bootup
+6dce94f32a9e (11 days ago)	 ARM64/configs: ginkgo: Enable NTFS support
+22a728ab27f8 (11 days ago)	 ARM64/configs: ginkgo: Enable SUSPEND_SKIP_SYNC
+69107e67ab05 (11 days ago)	 soc: qcom: minidump: Fix strlcpy usage
+13f85ef8eb26 (11 days ago)	 mmc: sdio: Fix strlcpy usage
+4a622a47bf6b (11 days ago)	 nt36xxx/ft8719: Fix snprintf warnings
+7fda1aa9c23d (11 days ago)	 teckpack: codecs: Use scnprintf() for robustness
+32aa8807eed8 (11 days ago)	 techpack: audio: Bump wcd_cpe state buffer
+296ad823c191 (11 days ago)	 qcacld-3.0: Disable REMOVE_PKT_LOG
+b2355493ac6b (11 days ago)	 qcacld-3.0: disable debugging bloat as much as possible
+70e132144b43 (11 days ago)	 qcacld-3.0: nuke rx_wakelock code entirely
+4b001bd5207c (11 days ago)	 f2fs: disable background gc in favor of rapid GC
+1df6450fd935 (11 days ago)	 fbdev: Optimized console framebuffer for performance
+f1b53e828ed8 (11 days ago)	 qos: Don't allow userspace to impose restrictions on CPU idle levels
+18f11b9eed3c (11 days ago)	 Revert "kernel: time: Add delay after cpu_relax() in tight loops"
+efb03641c733 (11 days ago)	 irq: silence 'irq no longer affine' messages
+20ca461c219f (11 days ago)	 power: suspend: silence suspend monitor
+ee88432294ae (11 days ago)	 PM / sleep: Skip OOM killer toggles when a LMK is in use
+83032fc29f05 (11 days ago)	 PM / Sleep: Expedite garbage collection if idle
+30d0b8c961f2 (11 days ago)	 PM / Sleep: Start killing wakelocks after one minute of idle
+f32d0f2fd07f (11 days ago)	 ARM64/configs: ginkgo: Enable garbage collector for wakelocks
+f13a8a23d1b2 (11 days ago)	 ARM64/configs: ginkgo: Enable suspend monitor
+8421579869be (11 days ago)	 power: suspend: Add suspend timeout handler
+c5c01e9e81b7 (11 days ago)	 rcu: Allow only one expedited GP to run concurrently with wakeups
+252375c34fe3 (11 days ago)	 rcu: Fix missed wakeup of exp_wq waiters
+3d3366c21058 (11 days ago)	 rpmsg: glink: Specify source in IRQ name
+1e3b124cd9e0 (11 days ago)	 Revert "cpuidle: Change idle policy to always enter C1 first"
+323b46ca897e (11 days ago)	 Revert "rpmsg: glink: Remove IRQF_NO_SUSPEND"
+4f069fcebeed (12 days ago)	 Merge tag 'v4.14.201' into 11.0
+04d51f36db99 (12 days ago)	 ANDROID: drop KERNEL_DIR setting in build.config.common
+93599f65c3d5 (13 days ago)	 Merge 4.14.201 into android-4.14-stable
+a21a9b514b88 (13 days ago)	 Linux 4.14.201
+f578c4fbe49d (13 days ago)	 net: usb: rtl8150: set random MAC address when set_ethernet_addr() fails
+b7107a74cac7 (13 days ago)	 mm: khugepaged: recalculate min_free_kbytes after memory hotplug as expected by khugepaged
+387026b76afb (13 days ago)	 mmc: core: don't set limits.discard_granularity as 0
+269e27425037 (13 days ago)	 perf: Fix task_function_call() error handling
+c36782a0c96d (13 days ago)	 rxrpc: Fix server keyring leak
+c11f69047175 (13 days ago)	 rxrpc: Fix some missing _bh annotations on locking conn->state_lock
+690a6ce474b3 (13 days ago)	 rxrpc: Downgrade the BUG() for unsupported token type in rxrpc_read()
+a9fe24352d4c (13 days ago)	 rxrpc: Fix rxkad token xdr encoding
+96e2bfa75b94 (13 days ago)	 net: usb: ax88179_178a: fix missing stop entry in driver_info
+71e6cdeb7da1 (13 days ago)	 mdio: fix mdio-thunder.c dependency & build error
+1ee2fd6238c5 (13 days ago)	 bonding: set dev->needed_headroom in bond_setup_by_slave()
+286e833e3b2c (13 days ago)	 xfrm: Use correct address family in xfrm_state_find
+8e2cd791e12c (13 days ago)	 platform/x86: fix kconfig dependency warning for FUJITSU_LAPTOP
+32102f436ef8 (13 days ago)	 net: stmmac: removed enabling eee in EEE set callback
+2bb379108c4a (13 days ago)	 xfrm: clone whole liftime_cur structure in xfrm_do_migrate
+f0da697e44c5 (13 days ago)	 xfrm: clone XFRMA_SEC_CTX in xfrm_do_migrate
+3f272fc500f6 (13 days ago)	 xfrm: clone XFRMA_REPLAY_ESN_VAL in xfrm_do_migrate
+fbd18651670b (13 days ago)	 drm/amdgpu: prevent double kfree ttm->sg
+4928ce41c884 (13 days ago)	 openvswitch: handle DNAT tuple collision
+fa07863c8387 (13 days ago)	 net: team: fix memory leak in __team_options_register
+37c0cdc3b206 (13 days ago)	 team: set dev->needed_headroom in team_setup_by_port()
+9775dd63d526 (13 days ago)	 sctp: fix sctp_auth_init_hmacs() error path
+95ee9fe59ec8 (13 days ago)	 i2c: meson: fix clock setting overwrite
+622d6a978516 (13 days ago)	 cifs: Fix incomplete memory allocation on setxattr path
+f62dfdf33185 (13 days ago)	 mm/khugepaged: fix filemap page_to_pgoff(page) != offset
+7a8ac42c6211 (13 days ago)	 macsec: avoid use-after-free in macsec_handle_frame()
+736214625ae7 (13 days ago)	 ftrace: Move RCU is watching check after recursion check
+d53cafafd80f (13 days ago)	 Btrfs: fix unexpected failure of nocow buffered writes after snapshotting when low on space
+6e07e6e1d305 (13 days ago)	 mtd: rawnand: sunxi: Fix the probe error path
+00bd93b3e430 (13 days ago)	 perf top: Fix stdio interface input handling with glibc 2.28+
+6affee7ddf0f (13 days ago)	 driver core: Fix probe_count imbalance in really_probe()
+e9ca1a08b162 (13 days ago)	 platform/x86: thinkpad_acpi: re-initialize ACPI buffer size when reuse
+515ded02bc4b (13 days ago)	 platform/x86: thinkpad_acpi: initialize tp_nvram_state variable
+681ba234ed33 (13 days ago)	 usermodehelper: reset umask to default before executing user process
+7ade86e765ab (13 days ago)	 net: wireless: nl80211: fix out-of-bounds access in nl80211_del_key()
+30386c13a1bf (13 days ago)	 fbcon: Fix global-out-of-bounds read in fbcon_get_font()
+ab5737277fce (13 days ago)	 Revert "ravb: Fixed to be able to unload modules"
+2832691e0106 (13 days ago)	 Fonts: Support FONT_EXTRA_WORDS macros for built-in fonts
+052841a35d32 (13 days ago)	 fbdev, newport_con: Move FONT_EXTRA_WORDS macros into linux/font.h
+328ec6286a78 (13 days ago)	 drm/syncobj: Fix drm_syncobj_handle_to_fd refcount leak
+60634d81cb43 (13 days ago)	 netfilter: ctnetlink: add a range check for l3/l4 protonum
+a3915080e95d (13 days ago)	 ep_create_wakeup_source(): dentry name can change under you...
+69c144b13db2 (13 days ago)	 epoll: EPOLL_CTL_ADD: close the race in decision to take fast path
+4aefd05cfdb3 (13 days ago)	 epoll: replace ->visited/visited_list with generation count
+23fb662b13e4 (13 days ago)	 epoll: do not insert into poll queues until all sanity checks are done
+5b08356f184a (13 days ago)	 net/packet: fix overflow in tpacket_rcv
+02555f63dab2 (13 days ago)	 random32: Restore __latent_entropy attribute on net_rand_state
+dbf317d1ab99 (13 days ago)	 Input: trackpoint - enable Synaptics trackpoints
+4445ef3be31a (13 days ago)	 i2c: cpm: Fix i2c_ram structure
+89fa35baceab (13 days ago)	 iommu/exynos: add missing put_device() call in exynos_iommu_of_xlate()
+a98fcb2fc19b (13 days ago)	 clk: samsung: exynos4: mark 'chipid' clock as CLK_IGNORE_UNUSED
+badb7483a81d (13 days ago)	 nfs: Fix security label length not being reset
+276e70368794 (13 days ago)	 pinctrl: mvebu: Fix i2c sda definition for 98DX3236
+d32430f927a0 (13 days ago)	 nvme-fc: fail new connections to a deleted host or remote port
+c90acce3cb66 (13 days ago)	 spi: fsl-espi: Only process interrupts for expected events
+202385c10e59 (13 days ago)	 mac80211: do not allow bigger VHT MPDUs than the hardware supports
+9f9f2427fd69 (13 days ago)	 drivers/net/wan/hdlc: Set skb->protocol before transmitting
+bbcc35888257 (13 days ago)	 drivers/net/wan/lapbether: Make skb->protocol consistent with the header
+e53e01eb8eea (13 days ago)	 rndis_host: increase sleep time in the query-response loop
+04dd581252b9 (13 days ago)	 net: dec: de2104x: Increase receive ring size for Tulip
+c7d5ed6d1cae (13 days ago)	 drm/sun4i: mixer: Extend regmap max_register
+7ebd03c97b10 (13 days ago)	 drivers/net/wan/hdlc_fr: Add needed_headroom for PVC devices
+297a1d703668 (13 days ago)	 drm/amdgpu: restore proper ref count in amdgpu_display_crtc_set_config
+c637ed42f0bb (13 days ago)	 Input: i8042 - add nopnp quirk for Acer Aspire 5 A515
+ceb35731765d (13 days ago)	 gpio: tc35894: fix up tc35894 interrupt configuration
+a8cb5851a862 (13 days ago)	 USB: gadget: f_ncm: Fix NDP16 datagram validation
+7e29f155e890 (13 days ago)	 net: virtio_vsock: Enhance connection semantics
+8a3966406670 (13 days ago)	 vsock/virtio: add transport parameter to the virtio_transport_reset_no_sock()
+b40b29b615ad (13 days ago)	 vsock/virtio: stop workers during the .remove()
+2404380b95ee (13 days ago)	 vsock/virtio: use RCU to avoid use-after-free on the_virtio_vsock
+d5f2e1cc211f (2 weeks ago)	 scsi: ufshcd-crypto-qti.c: do not resume for key reprogram
+fa3937a073d4 (2 weeks ago)	 locking/mutex: Test for initialized mutex
+f671b1511b39 (2 weeks ago)	 futex: Cleanup generic SMP variant of arch_futex_atomic_op_inuser()
+4d637e5de2f7 (2 weeks ago)	 futex: Consolidate duplicated timer setup code
+de8d80631b66 (2 weeks ago)	 futex: Ensure that futex address is aligned in handle_futex_death()
+7a36ce5b4432 (2 weeks ago)	 futex: Convert futex_pi_state.refcount to refcount_t
+6bbac5bfdb49 (2 weeks ago)	 futex: No need to check return value of debugfs_create functions
+145585c90ad6 (2 weeks ago)	 kernel/locking/mutex.c: remove caller signal_pending branch predictions
+663776445a5e (2 weeks ago)	 locking/mutex: Replace spin_is_locked() with lockdep
+3e91b7f5b918 (2 weeks ago)	 futex: Replace spin_is_locked() with lockdep
