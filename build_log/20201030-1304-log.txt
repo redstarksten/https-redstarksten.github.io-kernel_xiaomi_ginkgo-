@@ -1,0 +1,200 @@
+b3e39d328879  Fri Oct 30 12:48:55 2020 +0700 (16 minutes ago)	 bukandewa: Merge tag 'v4.14.203' into 11.0
+6dc875118c23  Fri Oct 30 09:50:23 2020 +0700 (3 hours ago)	 bukandewa: Merge tag 'LE.UM.4.3.3.r1-01500-SDX55' into 11.0
+2b7915014161  Thu Oct 29 09:07:21 2020 +0100 (22 hours ago)	 Greg Kroah-Hartman: Linux 4.14.203
+d0b6efebed6f  Mon Feb 20 18:52:11 2017 +0530 (22 hours ago)	 Mukesh Ojha: powerpc/powernv/opal-dump : Use IRQ_HANDLED instead of numbers in interrupt handler
+6d6d017a6d70  Tue Aug 25 14:55:05 2020 +0900 (22 hours ago)	 Lorenzo Colitti: usb: gadget: f_ncm: allow using NCM in SuperSpeed Plus gadgets.
+8a7e634bd3a2  Tue Jul 28 11:29:59 2020 +0200 (22 hours ago)	 Christian Eggers: eeprom: at25: set minimum read/write access stride to 1
+b27b1bcf9261  Mon Sep 28 23:17:55 2020 +0900 (22 hours ago)	 Oliver Neukum: USB: cdc-wdm: Make wdm_flush() interruptible and add wdm_fsync().
+d0528bf559b5  Sat Oct 3 00:41:51 2020 +0900 (22 hours ago)	 Vincent Mailhol: usb: cdc-acm: add quirk to blacklist ETAS ES58X devices
+69a0cf3fb401  Tue Sep 29 17:55:09 2020 +0800 (22 hours ago)	 Peng Fan: tty: serial: fsl_lpuart: fix lpuart32_poll_get_char
+728f57428dc8  Sun Oct 18 20:42:55 2020 +0200 (22 hours ago)	 Valentin Vidic: net: korina: cast KSEG0 address to pointer in kfree
+73ff79e48013  Tue Jun 23 18:11:05 2020 -0400 (22 hours ago)	 Zekun Shen: ath10k: check idx validity in __ath10k_htt_rx_ring_fill_n()
+73eae769d588  Sun Aug 9 05:15:48 2020 -0700 (22 hours ago)	 Can Guo: scsi: ufs: ufs-qcom: Fix race conditions caused by ufs_qcom_testbus_config()
+45b990318798  Fri Jul 31 08:46:50 2020 +0300 (22 hours ago)	 Eli Billauer: usb: core: Solve race condition in anchor cleanup functions
+64bd7b8b9062  Mon Jul 20 17:36:05 2020 +0800 (22 hours ago)	 Wang Yufen: brcm80211: fix possible memleak in brcmf_proto_msgbuf_attach
+ba2fdbcdbcc1  Fri Aug 21 17:27:19 2020 +0900 (22 hours ago)	 Tetsuo Handa: mwifiex: don't call del_timer_sync() on uninitialized timer
+5d4fd6d48b5b  Wed Mar 4 14:01:44 2020 +0100 (22 hours ago)	 Jan Kara: reiserfs: Fix memory leak in reiserfs_parse_options()
+48723ecc7364  Tue Aug 11 03:46:40 2020 -0400 (22 hours ago)	 Peilin Ye: ipvs: Fix uninit-value in do_ip_vs_set_ctl()
+3a51df27232f  Fri Aug 21 12:19:40 2020 -0400 (22 hours ago)	 Tong Zhang: tty: ipwireless: fix error handling
+cd1d81f44541  Tue Sep 8 02:56:52 2020 -0700 (22 hours ago)	 Nilesh Javali: scsi: qedi: Fix list_del corruption while removing active I/O
+7de217b9e587  Tue Sep 8 02:56:53 2020 -0700 (22 hours ago)	 Nilesh Javali: scsi: qedi: Protect active command list to avoid list corruption
+b519788e73a7  Wed Sep 2 14:08:25 2020 -0700 (22 hours ago)	 Doug Horn: Fix use after free in get_capset_info callback.
+5b014df0885d  Sun Sep 6 12:04:24 2020 +0800 (22 hours ago)	 Chris Chiu: rtl8xxxu: prevent potential memory leak
+e60457e789f8  Tue Sep 8 12:17:41 2020 +0000 (22 hours ago)	 Keita Suzuki: brcmsmac: fix memory leak in wlc_phy_attach_lcnphy
+efea5d57c505  Mon Sep 7 16:39:49 2020 +0800 (22 hours ago)	 Jing Xiangfeng: scsi: ibmvfc: Fix error return in ibmvfc_probe()
+c6bd0d0d5f14  Fri Sep 11 15:33:18 2020 -0700 (22 hours ago)	 Abhishek Pandit-Subedi: Bluetooth: Only mark socket zapped after unlocking
+be0083640e7d  Fri Sep 11 09:25:11 2020 +1200 (22 hours ago)	 Hamish Martin: usb: ohci: Default to per-port over-current protection
+01413b33575b  Wed Sep 9 14:21:06 2020 -0700 (22 hours ago)	 Darrick J. Wong: xfs: make sure the rt allocator doesn't run off the end
+a8ca9f684674  Sun Jun 28 00:00:57 2020 -0700 (22 hours ago)	 Eric Biggers: reiserfs: only call unlock_new_inode() if I_NEW
+19ca26aac209  Wed Sep 9 07:18:51 2020 +0000 (22 hours ago)	 Keita Suzuki: misc: rtsx: Fix memory leak in rtsx_pci_probe
+795d57a558d1  Fri Sep 11 03:14:27 2020 -0400 (22 hours ago)	 Brooke Basile: ath9k: hif_usb: fix race condition between usb_get_urb() and usb_kill_anchored_urbs()
+dcd5c6006eb2  Tue Sep 22 16:44:19 2020 +0200 (22 hours ago)	 Joakim Zhang: can: flexcan: flexcan_chip_stop(): add error handling and propagate error value
+95cc92a38af1  Mon Sep 21 15:59:49 2020 +0200 (22 hours ago)	 Johan Hovold: USB: cdc-acm: handle broken union descriptors
+c4e3e0824e35  Fri Sep 25 12:14:03 2020 +0200 (22 hours ago)	 Jan Kara: udf: Avoid accessing uninitialized data on failed inode read
+ac6e0baf7c82  Fri Sep 25 14:53:08 2020 +0200 (22 hours ago)	 Jan Kara: udf: Limit sparing table size
+d9fe88b2a38d  Fri Jun 5 11:05:33 2020 +0800 (22 hours ago)	 Zqiang: usb: gadget: function: printer: fix use-after-free in __lock_acquire
+1b5a5face33b  Tue Sep 29 17:11:05 2020 +0800 (22 hours ago)	 Sherry Sun: misc: vop: add round_up(x,4) for vring_size to avoid kernel panic
+8ac300685904  Tue Sep 29 17:11:06 2020 +0800 (22 hours ago)	 Sherry Sun: mic: vop: copy data to kernel space then write to io memory
+a07e3351c42d  Tue Sep 29 15:59:57 2020 +0300 (22 hours ago)	 Roman Bolshakov: scsi: target: core: Add CONTROL field for trace events
+e9d7903412d2  Thu Sep 10 20:38:48 2020 +0800 (22 hours ago)	 Jing Xiangfeng: scsi: mvumi: Fix error return in mvumi_io_attach()
+e7efc8587675  Fri Sep 25 18:14:47 2020 +0200 (22 hours ago)	 Christoph Hellwig: PM: hibernate: remove the bogus call to get_gendisk() in software_resume()
+37f191b98e4c  Mon Oct 5 09:45:21 2020 -0700 (22 hours ago)	 Thomas Pedersen: mac80211: handle lack of sband->bitrates in rates
+d2918cca649f  Tue Oct 13 16:48:17 2020 -0700 (22 hours ago)	 Rustam Kovhaev: ntfs: add check for mft record size in superblock
+699cbe4895d5  Sun Jun 28 07:55:23 2020 +0200 (22 hours ago)	 Dinghao Liu: media: venus: core: Fix runtime PM imbalance in venus_probe
+eaadbc84174f  Thu Aug 27 15:02:51 2020 -0400 (22 hours ago)	 Alexander Aring: fs: dlm: fix configfs memory leak
+03d78253277a  Wed Sep 2 08:37:12 2020 +0200 (22 hours ago)	 Mauro Carvalho Chehab: media: saa7134: avoid a shift overflow
+4d880c0cba3f  Mon Jul 27 15:38:34 2020 +0200 (22 hours ago)	 Pali Rohár: mmc: sdio: Check for CISTPL_VERS_1 buffer size
+f44836e96516  Sun Aug 23 03:21:33 2020 +0200 (22 hours ago)	 Adam Goode: media: uvcvideo: Ensure all probed info is returned to v4l2
+6fab85f03cfa  Fri Apr 17 11:52:30 2020 +0200 (22 hours ago)	 Xiaolong Huang: media: media/pci: prevent memory leak in bttv_probe
+aaa35fd4e124  Thu May 21 12:00:21 2020 +0200 (22 hours ago)	 Dinghao Liu: media: bdisp: Fix runtime PM imbalance on error
+e984f79e2df3  Thu May 21 12:05:02 2020 +0200 (22 hours ago)	 Dinghao Liu: media: platform: sti: hva: Fix runtime PM imbalance on error
+a4ef57d1cb5a  Thu May 21 15:29:33 2020 +0200 (22 hours ago)	 Dinghao Liu: media: platform: s3c-camif: Fix runtime PM imbalance on error
+37b6efc2559a  Mon Jun 8 07:29:19 2020 +0200 (22 hours ago)	 Dinghao Liu: media: vsp1: Fix runtime PM imbalance on error
+7713c060f1c1  Sun Jun 14 05:01:11 2020 +0200 (22 hours ago)	 Qiushi Wu: media: exynos4-is: Fix a reference count leak
+1674941303d3  Sun Jun 14 05:10:58 2020 +0200 (22 hours ago)	 Qiushi Wu: media: exynos4-is: Fix a reference count leak due to pm_runtime_get_sync
+9e701ac75c67  Sun Jun 14 05:18:29 2020 +0200 (22 hours ago)	 Qiushi Wu: media: exynos4-is: Fix several reference count leaks due to pm_runtime_get_sync
+67aff25b8dbe  Sun Jun 14 05:31:06 2020 +0200 (22 hours ago)	 Qiushi Wu: media: sti: Fix reference count leaks
+36d682798e58  Sun Jun 14 05:58:41 2020 +0200 (22 hours ago)	 Aditya Pakki: media: st-delta: Fix reference count leak in delta_run_work
+8134f6b6318c  Wed Sep 16 15:50:51 2020 +0200 (22 hours ago)	 Oliver Neukum: media: ati_remote: sanity check for both endpoints
+6763925003a6  Sun Sep 20 11:01:37 2020 +0200 (22 hours ago)	 Pavel Machek: media: firewire: fix memory leak
+f87acd2c40df  Mon Sep 21 13:34:35 2020 +0200 (22 hours ago)	 Pavel Machek: crypto: ccp - fix error handling
+d40a93fabd7f  Wed Oct 14 16:41:58 2020 +0200 (22 hours ago)	 Hans de Goede: i2c: core: Restore acpi_walk_dep_device_list() getting called after registering the ACPI i2c devs
+6e95be106536  Mon Sep 21 21:46:37 2020 +0100 (22 hours ago)	 Al Grant: perf: correct SNOOPX field offset
+94ae143ca57b  Tue Aug 11 09:59:57 2020 +0800 (22 hours ago)	 Kaige Li: NTB: hw: amd: fix an issue about leak system resources
+477dfe7d985a  Thu Oct 15 09:51:40 2020 +0800 (22 hours ago)	 zhenwei pi: nvmet: fix uninitialized work for zero kato
+b398d1dcf369  Sat Oct 17 22:12:10 2020 +0530 (22 hours ago)	 Vasant Hegde: powerpc/powernv/dump: Fix race while processing OPAL dump
+09ee728260d7  Mon Aug 24 10:59:14 2020 +0200 (22 hours ago)	 Michal Simek: arm64: dts: zynqmp: Remove additional compatible string for i2c IPs
+6572359eba06  Fri Aug 28 16:53:17 2020 +0300 (22 hours ago)	 Cristian Ciocaltea: ARM: dts: owl-s500: Fix incorrect PPI interrupt specifiers
+0b1dedc4f0b8  Tue Sep 15 09:12:11 2020 +0200 (22 hours ago)	 Stephan Gerhold: arm64: dts: qcom: msm8916: Fix MDP/DSI interrupts
+8db94d79456d  Thu Aug 27 09:33:15 2020 +0200 (22 hours ago)	 Krzysztof Kozlowski: memory: fsl-corenet-cf: Fix handling of platform_get_irq() error
+9bff692ae215  Tue Aug 25 13:47:07 2020 +0300 (22 hours ago)	 Dan Carpenter: memory: omap-gpmc: Fix a couple off by ones
+d5ed2625f0a8  Fri Aug 28 10:23:42 2020 +0800 (22 hours ago)	 Robert Hoo: KVM: x86: emulating RDPID failure shall return #UD rather than #GP
+8904f1e144b4  Tue Sep 15 17:56:40 2020 -0700 (22 hours ago)	 Krzysztof Kozlowski: Input: sun4i-ps2 - fix handling of platform_get_irq() error
+c024b1a42ee4  Tue Sep 15 17:56:19 2020 -0700 (22 hours ago)	 Krzysztof Kozlowski: Input: twl4030_keypad - fix handling of platform_get_irq() error
+bac6ea43d9ef  Tue Sep 15 17:52:15 2020 -0700 (22 hours ago)	 Krzysztof Kozlowski: Input: omap4-keypad - fix handling of platform_get_irq() error
+4cf86bec24fa  Tue Sep 15 17:51:05 2020 -0700 (22 hours ago)	 Krzysztof Kozlowski: Input: ep93xx_keypad - fix handling of platform_get_irq() error
+369c1bb55e8b  Wed Sep 16 10:26:09 2020 -0700 (22 hours ago)	 YueHaibing: Input: stmfts - fix a & vs && typo
+695976722522  Mon Sep 14 10:17:01 2020 -0700 (22 hours ago)	 Dan Carpenter: Input: imx6ul_tsc - clean up some errors in imx6ul_tsc_resume()
+e9caa4e4ac9f  Fri Oct 16 17:35:58 2020 +0800 (22 hours ago)	 Xiaoyang Xu: vfio iommu type1: Fix memory leak in vfio_iommu_type1_pin_pages
+1877012c68da  Mon Oct 19 07:13:55 2020 -0600 (22 hours ago)	 Alex Williamson: vfio/pci: Clear token on bypass registration failure
+7b9009bc09f3  Thu Oct 1 15:21:48 2020 -0700 (22 hours ago)	 Darrick J. Wong: ext4: limit entries returned when counting fsmap records
+4a90077585b4  Sun Aug 9 18:11:58 2020 -0500 (22 hours ago)	 Navid Emamdoost: clk: bcm2835: add missing release if devm_clk_hw_register fails
+33e742a5c7aa  Tue Aug 25 09:59:10 2020 +0300 (22 hours ago)	 Claudiu Beznea: clk: at91: clk-main: update key before writing AT91_CKGR_MOR
+598e40fe3d49  Mon Aug 3 15:52:40 2020 +1200 (22 hours ago)	 Mark Tomlinson: PCI: iproc: Set affinity mask on MSI interrupts
+66da98b20b58  Thu Aug 27 11:23:30 2020 +0200 (22 hours ago)	 Dirk Behme: i2c: rcar: Auto select RESET_CONTROLLER
+e1d8263a5949  Fri Oct 16 12:20:56 2020 -0500 (22 hours ago)	 Jassi Brar: mailbox: avoid timer start from callback
+8e8bdb139d2d  Thu Oct 15 20:13:18 2020 -0700 (22 hours ago)	 Jing Xiangfeng: rapidio: fix the missed put_device() for rio_mport_add_riodev
+abb48d0cdec3  Thu Oct 15 20:13:15 2020 -0700 (22 hours ago)	 Souptick Joarder: rapidio: fix error handling path
+2f373fdb25da  Thu Oct 15 20:13:04 2020 -0700 (22 hours ago)	 Matthew Wilcox (Oracle): ramfs: fix nommu mmap with gaps in the page cache
+6f0344af61d5  Thu Oct 15 20:11:38 2020 -0700 (22 hours ago)	 Tobias Jordan: lib/crc32.c: fix trivial typo in preprocessor condition
+83dde43b5072  Mon Oct 12 14:09:48 2020 +0100 (22 hours ago)	 Jamie Iles: f2fs: wait for sysfs kobject removal before freeing f2fs_sb_info
+72322fd42ee0  Thu Oct 8 10:52:04 2020 +0100 (22 hours ago)	 Colin Ian King: IB/rdmavt: Fix sizeof mismatch
+e146abfa0e71  Tue Sep 22 13:32:54 2020 +0530 (22 hours ago)	 Srikar Dronamraju: cpufreq: powernv: Fix frame-size-overflow in powernv_cpufreq_reboot_notifier
+75b270f8d73f  Sat Oct 3 13:19:39 2020 +0530 (22 hours ago)	 Kajol Jain: powerpc/perf/hv-gpci: Fix starting index value
+37fcf4be0ec3  Mon Sep 21 03:10:04 2020 -0400 (22 hours ago)	 Athira Rajeev: powerpc/perf: Exclude pmc5/6 from the irrelevant PMU group constraints
+ff615d2f2efa  Sun Sep 13 13:29:28 2020 +0300 (22 hours ago)	 Leon Romanovsky: overflow: Include header file with SIZE_MAX declaration
+c7d131dae2b5  Wed Sep 9 15:17:08 2020 +0100 (22 hours ago)	 Daniel Thompson: kdb: Fix pager search for multi-line strings
+63cda332a306  Thu Sep 17 21:50:15 2020 +0800 (22 hours ago)	 Lijun Ou: RDMA/hns: Set the unsupported wr opcode
+98f78dd3caf9  Wed Sep 9 11:49:23 2020 +0300 (22 hours ago)	 Adrian Hunter: perf intel-pt: Fix "context_switch event has no tid" error
+9fb97ac5b1c9  Sat Sep 5 09:02:20 2020 +1000 (22 hours ago)	 Finn Thain: powerpc/tau: Disable TAU between measurements
+cbd0b229995b  Sat Sep 5 09:02:20 2020 +1000 (22 hours ago)	 Finn Thain: powerpc/tau: Remove duplicated set_thresholds() call
+23237a12625d  Sat Sep 5 09:02:20 2020 +1000 (22 hours ago)	 Finn Thain: powerpc/tau: Use appropriate temperature sample interval
+3c6d33035908  Wed Sep 2 19:57:36 2020 +0300 (22 hours ago)	 Michal Kalderon: RDMA/qedr: Fix use of uninitialized field
+1577152a3a13  Thu Oct 1 10:56:07 2020 -0700 (22 hours ago)	 Darrick J. Wong: xfs: limit entries returned when counting fsmap records
+f6cb0dcfee62  Mon Sep 14 14:46:52 2020 +0300 (22 hours ago)	 Necip Fazil Yildiran: arc: plat-hsdk: fix kconfig dependency warning when !RESET_CONTROLLER
+aa273a3236b6  Tue Sep 1 16:58:06 2020 +0100 (22 hours ago)	 Guillaume Tucker: ARM: 9007/1: l2c: fix prefetch bits init in L2X0_AUX_CTRL using DT values
+b26380cfbf04  Thu Sep 3 15:42:17 2020 +1200 (22 hours ago)	 Mark Tomlinson: mtd: mtdoops: Don't write panic data twice
+8f781b33b319  Tue May 5 16:01:16 2020 +0200 (22 hours ago)	 Arnd Bergmann: mtd: lpddr: fix excessive stack usage with clang
+04b709854bb0  Wed Jul 4 10:03:27 2018 +0200 (22 hours ago)	 Nicholas Mc Guire: powerpc/icp-hv: Fix missing of_node_put() in success path
+912991aea862  Mon Jul 2 11:08:16 2018 +0200 (22 hours ago)	 Nicholas Mc Guire: powerpc/pseries: Fix missing of_node_put() in rng_init()
+d0539eb00834  Mon Aug 3 08:19:41 2020 +0200 (22 hours ago)	 Håkon Bugge: IB/mlx4: Adjust delayed work when a dup is observed
+4df76024c06a  Mon Aug 3 08:19:39 2020 +0200 (22 hours ago)	 Håkon Bugge: IB/mlx4: Fix starvation in paravirt mux/demux
+fc7d33941b6f  Tue Oct 13 16:58:35 2020 -0700 (22 hours ago)	 Suren Baghdasaryan: mm, oom_adj: don't loop through tasks in __set_oom_adj when not necessary
+09d2801f3975  Tue Oct 13 16:53:13 2020 -0700 (22 hours ago)	 Ralph Campbell: mm/memcg: fix device private memcg accounting
+11fe3495e92e  Mon Oct 12 00:03:29 2020 +0200 (22 hours ago)	 Valentin Vidic: net: korina: fix kfree of rx/tx descriptor array
+89121da24833  Sun Oct 4 06:19:31 2020 -0700 (22 hours ago)	 Tom Rix: mwifiex: fix double free
+4c0ab952c422  Mon Sep 28 12:13:00 2020 +0300 (22 hours ago)	 Dan Carpenter: scsi: be2iscsi: Fix a theoretical leak in beiscsi_create_eqs()
+4abb2c64ae02  Thu Sep 24 18:08:39 2020 +0400 (22 hours ago)	 Minas Harutyunyan: usb: dwc2: Fix INTR OUT transfers in DDMA mode.
+1718088a3e7a  Mon Sep 28 13:07:18 2020 +0200 (22 hours ago)	 Johannes Berg: nl80211: fix non-split wiphy information
+424f50e64610  Wed Aug 19 01:19:49 2020 +0900 (22 hours ago)	 Lorenzo Colitti: usb: gadget: u_ether: enable qmult on SuperSpeed Plus as well
+9144ea5a6cc2  Tue Aug 25 14:55:03 2020 +0900 (22 hours ago)	 Lorenzo Colitti: usb: gadget: f_ncm: fix ncm_bitrate for SuperSpeed and above.
+a777eb9e28c5  Wed Sep 30 10:31:20 2020 +0300 (22 hours ago)	 Emmanuel Grumbach: iwlwifi: mvm: split a print to avoid a WARNING in ROC
+dc909a96b458  Fri Sep 11 14:33:26 2020 +0300 (22 hours ago)	 Dan Carpenter: mfd: sm501: Fix leaks in probe()
+d5a8eeea37d3  Tue Sep 29 22:25:10 2020 +0200 (22 hours ago)	 Thomas Gleixner: net: enic: Cure the enic api locking trainwreck
+c87bee5457d1  Fri Sep 25 14:22:24 2020 +0100 (22 hours ago)	 Colin Ian King: qtnfmac: fix resource leaks on unsupported iftype error return path
+9fccdf49813e  Fri Sep 25 16:35:52 2020 -0700 (22 hours ago)	 Dmitry Torokhov: HID: hid-input: fix stylus battery reporting
+d996dee5ff9c  Thu Sep 24 11:36:19 2020 -0700 (22 hours ago)	 Eric Dumazet: quota: clear padding in v2r1_mem2diskdqb()
+285b405b3a4a  Fri Jul 24 23:03:54 2020 -0700 (22 hours ago)	 Nathan Chancellor: usb: dwc2: Fix parameter type in function pointer prototype
+00b83a8f5981  Tue Sep 22 10:38:56 2020 +0200 (22 hours ago)	 Takashi Iwai: ALSA: seq: oss: Avoid mutex lock for a long-time ioctl
+4f86b0d9563a  Sun Sep 20 08:21:35 2020 +0530 (22 hours ago)	 Souptick Joarder: misc: mic: scif: Fix error handling path
+cb25d1885d2e  Fri Sep 18 17:27:32 2020 +0300 (22 hours ago)	 Dan Carpenter: ath6kl: wmi: prevent a shift wrapping bug in ath6kl_wmi_delete_pstream_cmd()
+a3cce32a69a2  Fri Aug 28 22:32:26 2020 +0100 (22 hours ago)	 Thomas Preston: pinctrl: mcp23s08: Fix mcp23x17 precious range
+5aa9c3a05662  Fri Aug 28 22:32:25 2020 +0100 (22 hours ago)	 Thomas Preston: pinctrl: mcp23s08: Fix mcp23x17_regmap initialiser
+8ef9b6440f89  Mon Aug 24 11:57:35 2020 +0300 (22 hours ago)	 Dan Carpenter: HID: roccat: add bounds checking in kone_sysfs_write_settings()
+b1d39ad83acf  Wed Aug 5 07:52:08 2020 -0700 (22 hours ago)	 Tom Rix: video: fbdev: sis: fix null ptr dereference
+cba6da8adcc0  Thu Jul 23 18:02:27 2020 +0100 (22 hours ago)	 Colin Ian King: video: fbdev: vga16fb: fix setting of pixclock because a pass-by-value error
+84949ad704f6  Wed Sep 2 02:51:11 2020 +0530 (22 hours ago)	 Souptick Joarder: drivers/virt/fsl_hypervisor: Fix error handling path
+de01ce3e40e5  Thu Sep 3 13:23:24 2020 +0200 (22 hours ago)	 Hans de Goede: pwm: lpss: Add range limit check for the base_unit register value
+d6ccde2f65c3  Thu Sep 3 13:23:23 2020 +0200 (22 hours ago)	 Hans de Goede: pwm: lpss: Fix off by one error in base_unit math in pwm_lpss_prepare()
+0fb15ffe75d2  Wed Sep 2 14:00:45 2020 +0200 (22 hours ago)	 Artem Savkov: pty: do tty_flip_buffer_push without port->lock in pty_write
+171408e8ed00  Thu Aug 20 18:46:38 2020 -0500 (22 hours ago)	 Tyrel Datwyler: tty: hvcs: Don't NULL tty->driver_data until hvcs_cleanup()
+ee042abcf639  Fri Aug 28 08:39:50 2020 -0400 (22 hours ago)	 Tong Zhang: tty: serial: earlycon dependency
+2b8c7395d275  Tue Aug 25 17:45:18 2020 +0100 (22 hours ago)	 Alex Dewar: VMCI: check return value of get_user_pages_fast() for errors
+6630474d70c0  Thu Aug 20 14:38:17 2020 +0800 (22 hours ago)	 dinghao.liu@zju.edu.cn: backlight: sky81452-backlight: Fix refcount imbalance on error
+ca27f1e37747  Sun Aug 2 19:15:31 2020 +0800 (22 hours ago)	 Tianjia Zhang: scsi: csiostor: Fix wrong return value in csio_hw_prep_fw()
+17b50b33f64f  Sun Aug 2 12:15:27 2020 +0200 (22 hours ago)	 Christophe JAILLET: scsi: qla4xxx: Fix an error handling path in 'qla4xxx_get_host_stats()'
+0a36614ebcaf  Wed Aug 5 13:59:11 2020 -0700 (22 hours ago)	 Tom Rix: drm/gma500: fix error check
+b14731f6054c  Sun Aug 9 11:29:06 2020 +0200 (22 hours ago)	 Christophe JAILLET: mwifiex: Do not use GFP_KERNEL in atomic context
+2990874f58db  Sun Aug 2 09:18:04 2020 -0700 (22 hours ago)	 Tom Rix: brcmfmac: check ndev pointer
+1525c46a8510  Fri Aug 14 16:23:02 2020 +0530 (22 hours ago)	 Rohit kumar: ASoC: qcom: lpass-cpu: fix concurrency issue
+320354942cf0  Fri Aug 14 16:23:00 2020 +0530 (22 hours ago)	 Rohit kumar: ASoC: qcom: lpass-platform: fix memory leak
+61afd9570c08  Sun Aug 2 01:48:24 2020 +0100 (22 hours ago)	 Bryan O'Donoghue: wcn36xx: Fix reported 802.11n rx_highest rate wcn3660/wcn3680
+c602739b70f1  Thu Aug 13 17:12:53 2020 +0300 (22 hours ago)	 Dan Carpenter: ath9k: Fix potential out of bounds in ath9k_htc_txcompletion_cb()
+3dd51af5f967  Thu Aug 13 17:13:15 2020 +0300 (22 hours ago)	 Dan Carpenter: ath6kl: prevent potential array overflow in ath6kl_add_new_sta()
+cd27019bc149  Sat Aug 1 11:29:56 2020 -0500 (22 hours ago)	 Samuel Holland: Bluetooth: hci_uart: Cancel init work before unregistering
+685de75751f1  Mon Jun 15 20:29:03 2020 +0300 (22 hours ago)	 Venkateswara Naralasetty: ath10k: provide survey info as accumulated data
+167c3b1f9793  Sat Sep 26 23:32:41 2020 +0200 (22 hours ago)	 Michał Mirosław: regulator: resolve supply after creating regulator
+0cb5c9607f16  Sun Jun 14 04:56:05 2020 +0200 (22 hours ago)	 Qiushi Wu: media: ti-vpe: Fix a missing check and reference count leak
+a4c597c385c4  Sun Jun 14 04:31:22 2020 +0200 (22 hours ago)	 Qiushi Wu: media: s5p-mfc: Fix a reference count leak
+47aa0f3cf46c  Sun Jun 14 01:19:44 2020 +0200 (22 hours ago)	 Qiushi Wu: media: platform: fcp: Fix a reference count leak.
+a44cbb02d349  Sun Aug 30 18:30:43 2020 +0200 (22 hours ago)	 Tom Rix: media: tc358743: initialize variable
+7221d0a05449  Wed Aug 26 11:26:04 2020 +0200 (22 hours ago)	 Dinghao Liu: media: mx2_emmaprp: Fix memleak in emmaprp_probe
+c5da13f02748  Mon Sep 14 11:00:51 2020 +0800 (22 hours ago)	 Xiaoliang Pang: cypto: mediatek - fix leaks in mtk_desc_ring_alloc
+65119594438d  Mon Sep 7 10:56:24 2020 +0300 (22 hours ago)	 Tero Kristo: crypto: omap-sham - fix digcnt register handling with export/import
+4e439ef0f8c1  Mon Aug 24 08:53:52 2020 +0200 (22 hours ago)	 Dinghao Liu: media: omap3isp: Fix memleak in isp_probe
+068e68ba26d7  Sun Jun 7 04:05:49 2020 +0200 (22 hours ago)	 Laurent Pinchart: media: uvcvideo: Set media controller entity functions
+d5ef7f499701  Sun Jul 19 17:34:47 2020 +0200 (22 hours ago)	 Tom Rix: media: m5mols: Check function pointer in m5mols_sensor_power
+d23e4a88cea1  Mon Aug 10 17:32:39 2020 +0200 (22 hours ago)	 Sylwester Nawrocki: media: Revert "media: exynos4-is: Add missed check for pinctrl_lookup_state()"
+c338147e5ba6  Sat Aug 22 23:15:47 2020 +0200 (22 hours ago)	 Tom Rix: media: tuner-simple: fix regression in simple_set_radio_freq
+2a609fa96a98  Sun Aug 2 16:56:48 2020 +0200 (22 hours ago)	 Christophe JAILLET: crypto: ixp4xx - Fix the size used in a 'dma_free_coherent()' call
+bf65f0c0cafb  Sun Aug 2 19:15:32 2020 +0800 (22 hours ago)	 Tianjia Zhang: crypto: mediatek - Fix wrong return value in mtk_desc_ring_alloc()
+9751cc18971d  Fri Jul 31 17:03:27 2020 +1000 (22 hours ago)	 Herbert Xu: crypto: algif_skcipher - EBUSY on aio should be an error
+4495d432d3bf  Tue Sep 15 16:41:09 2020 -0400 (22 hours ago)	 Mark Salter: drivers/perf: xgene_pmu: Fix uninitialized resource struct
+f3eabd796e00  Mon Sep 7 17:39:19 2020 -0400 (22 hours ago)	 Arvind Sankar: x86/fpu: Allow multiple bits in clearcpuid= parameter
+4024c42c6bfc  Wed Aug 26 20:14:37 2020 +0800 (22 hours ago)	 Dinghao Liu: EDAC/i5100: Fix error handling order in i5100_init_one()
+0c1171ba3b01  Fri Jul 31 17:03:50 2020 +1000 (22 hours ago)	 Herbert Xu: crypto: algif_aead - Do not set MAY_BACKLOG on the async path
+d0f7036b1284  Fri Sep 4 11:23:28 2020 +0200 (22 hours ago)	 Roberto Sassu: ima: Don't ignore errors from crypto_shash_update()
+47925a53057a  Sat Oct 3 23:27:07 2020 +0000 (22 hours ago)	 Suravee Suthikulpanit: KVM: SVM: Initialize prev_ga_tag before use
+3f73efb3f97c  Wed Sep 23 11:37:28 2020 -0700 (22 hours ago)	 Sean Christopherson: KVM: x86/mmu: Commit zap of remaining invalid pages when recovering lpages
+665ec6970ea5  Thu Oct 15 10:41:31 2020 -0700 (22 hours ago)	 Shyam Prasad N: cifs: Return the error from crypt_message when enc/dec key not found.
+0395d8d0cf59  Wed Sep 16 23:18:21 2020 +0300 (22 hours ago)	 Dan Carpenter: cifs: remove bogus debug code
+e1b8b5762352  Thu Oct 15 11:42:00 2020 -0700 (22 hours ago)	 Eric Dumazet: icmp: randomize the global rate limiter
+c042da4b2987  Thu Oct 22 10:33:31 2020 -0400 (22 hours ago)	 Neal Cardwell: tcp: fix to update snd_wl1 in bulk receiver fast path
+8ac1b0a94a72  Mon Oct 19 19:38:58 2020 +0800 (22 hours ago)	 Defang Bo: nfc: Ensure presence of NFC_ATTR_FIRMWARE_NAME attribute in nfc_genl_fw_download()
+712777b2bc9b  Mon Oct 19 23:34:20 2020 -0700 (22 hours ago)	 Xie He: net: hdlc_raw_eth: Clear the IFF_TX_SKB_SHARING flag after calling ether_setup
+63881790add6  Mon Oct 19 18:31:52 2020 -0700 (22 hours ago)	 Xie He: net: hdlc: In hdlc_rcv, check to make sure dev is an HDLC device
+8ae01b6ed7e0  Wed Oct 7 10:49:28 2020 +0300 (22 hours ago)	 Dan Carpenter: ALSA: bebob: potential info leak in hwdep_read()
+d4c49b6733c3  Fri Oct 9 16:24:55 2020 -0700 (22 hours ago)	 Todd Kjos: binder: fix UAF when releasing todo list
+7ed96d96bfe9  Thu Oct 1 09:23:02 2020 +0200 (22 hours ago)	 Heiner Kallweit: r8169: fix data corruption issue on RTL8402
+af4ccfdb43df  Wed Sep 23 13:18:15 2020 -0700 (22 hours ago)	 Maciej Żenczykowski: net/ipv4: always honour route mtu during forwarding
+cdc27eb1f52f  Wed Oct 7 21:12:50 2020 -0700 (22 hours ago)	 Cong Wang: tipc: fix the skb_unshare() in tipc_buf_append()
+732016c026b7  Thu Oct 8 09:21:38 2020 +0200 (22 hours ago)	 Wilken Gottwalt: net: usb: qmi_wwan: add Cellient MPL200 card
+b09bf8410dcf  Thu Oct 8 11:45:26 2020 -0700 (22 hours ago)	 Jonathan Lemon: mlx4: handle non-napi callers to napi_poll
+f6b47285c4a4  Fri Oct 9 11:01:01 2020 -0700 (22 hours ago)	 David Ahern: ipv4: Restore flowi4_oif update before call to xfrm_lookup_route
+cc8a5643ede8  Tue Oct 13 16:20:14 2020 -0700 (22 hours ago)	 David Wilder: ibmveth: Identify ingress large send packets.
+acf6efa6502d  Tue Oct 13 16:20:13 2020 -0700 (22 hours ago)	 David Wilder: ibmveth: Switch order of ibmveth_helper calls.
+6f81e8a709cf  Wed Oct 28 19:49:24 2020 +0700 (2 days ago)	 bukandewa: regen, some changes in fs/f2fs/Kconfig and kernel/sys.c. Testing to make dtbo.img
+da5287fa0057  Mon Oct 26 20:11:34 2020 -0700 (3 days ago)	 Linux Build Service Account: Merge 4857bc354072128e78b4be4d77992ffbf9871da0 on remote branch
+4857bc354072  Fri Oct 23 22:29:41 2020 -0700 (6 days ago)	 qctecmdr: Merge "msm: ipa: eth: Use ipa_eth_register_ready_cb() to init IPA API"
+fa792f79389c  Fri Oct 23 14:48:40 2020 +0700 (7 days ago)	 bukandewa: Merge tag 'LA.UM.8.1.r1-16200-sm8150.0' into 11.0
+b84013d2aef0  Thu Oct 22 10:17:34 2020 -0700 (8 days ago)	 qctecmdr: Merge "msm: ipa: create ipa_client for ethernet"
