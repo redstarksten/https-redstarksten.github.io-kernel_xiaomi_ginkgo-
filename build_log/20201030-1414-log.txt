@@ -1,0 +1,200 @@
+b3e39d328879 2020-10-30	: Merge tag 'v4.14.203' into 11.0
+6dc875118c23 2020-10-30	: Merge tag 'LE.UM.4.3.3.r1-01500-SDX55' into 11.0
+2b7915014161 2020-10-29	: Linux 4.14.203
+d0b6efebed6f 2017-02-20	: powerpc/powernv/opal-dump : Use IRQ_HANDLED instead of numbers in interrupt handler
+6d6d017a6d70 2020-08-25	: usb: gadget: f_ncm: allow using NCM in SuperSpeed Plus gadgets.
+8a7e634bd3a2 2020-07-28	: eeprom: at25: set minimum read/write access stride to 1
+b27b1bcf9261 2020-09-28	: USB: cdc-wdm: Make wdm_flush() interruptible and add wdm_fsync().
+d0528bf559b5 2020-10-03	: usb: cdc-acm: add quirk to blacklist ETAS ES58X devices
+69a0cf3fb401 2020-09-29	: tty: serial: fsl_lpuart: fix lpuart32_poll_get_char
+728f57428dc8 2020-10-18	: net: korina: cast KSEG0 address to pointer in kfree
+73ff79e48013 2020-06-23	: ath10k: check idx validity in __ath10k_htt_rx_ring_fill_n()
+73eae769d588 2020-08-09	: scsi: ufs: ufs-qcom: Fix race conditions caused by ufs_qcom_testbus_config()
+45b990318798 2020-07-31	: usb: core: Solve race condition in anchor cleanup functions
+64bd7b8b9062 2020-07-20	: brcm80211: fix possible memleak in brcmf_proto_msgbuf_attach
+ba2fdbcdbcc1 2020-08-21	: mwifiex: don't call del_timer_sync() on uninitialized timer
+5d4fd6d48b5b 2020-03-04	: reiserfs: Fix memory leak in reiserfs_parse_options()
+48723ecc7364 2020-08-11	: ipvs: Fix uninit-value in do_ip_vs_set_ctl()
+3a51df27232f 2020-08-21	: tty: ipwireless: fix error handling
+cd1d81f44541 2020-09-08	: scsi: qedi: Fix list_del corruption while removing active I/O
+7de217b9e587 2020-09-08	: scsi: qedi: Protect active command list to avoid list corruption
+b519788e73a7 2020-09-02	: Fix use after free in get_capset_info callback.
+5b014df0885d 2020-09-06	: rtl8xxxu: prevent potential memory leak
+e60457e789f8 2020-09-08	: brcmsmac: fix memory leak in wlc_phy_attach_lcnphy
+efea5d57c505 2020-09-07	: scsi: ibmvfc: Fix error return in ibmvfc_probe()
+c6bd0d0d5f14 2020-09-11	: Bluetooth: Only mark socket zapped after unlocking
+be0083640e7d 2020-09-11	: usb: ohci: Default to per-port over-current protection
+01413b33575b 2020-09-09	: xfs: make sure the rt allocator doesn't run off the end
+a8ca9f684674 2020-06-28	: reiserfs: only call unlock_new_inode() if I_NEW
+19ca26aac209 2020-09-09	: misc: rtsx: Fix memory leak in rtsx_pci_probe
+795d57a558d1 2020-09-11	: ath9k: hif_usb: fix race condition between usb_get_urb() and usb_kill_anchored_urbs()
+dcd5c6006eb2 2020-09-22	: can: flexcan: flexcan_chip_stop(): add error handling and propagate error value
+95cc92a38af1 2020-09-21	: USB: cdc-acm: handle broken union descriptors
+c4e3e0824e35 2020-09-25	: udf: Avoid accessing uninitialized data on failed inode read
+ac6e0baf7c82 2020-09-25	: udf: Limit sparing table size
+d9fe88b2a38d 2020-06-05	: usb: gadget: function: printer: fix use-after-free in __lock_acquire
+1b5a5face33b 2020-09-29	: misc: vop: add round_up(x,4) for vring_size to avoid kernel panic
+8ac300685904 2020-09-29	: mic: vop: copy data to kernel space then write to io memory
+a07e3351c42d 2020-09-29	: scsi: target: core: Add CONTROL field for trace events
+e9d7903412d2 2020-09-10	: scsi: mvumi: Fix error return in mvumi_io_attach()
+e7efc8587675 2020-09-25	: PM: hibernate: remove the bogus call to get_gendisk() in software_resume()
+37f191b98e4c 2020-10-05	: mac80211: handle lack of sband->bitrates in rates
+d2918cca649f 2020-10-13	: ntfs: add check for mft record size in superblock
+699cbe4895d5 2020-06-28	: media: venus: core: Fix runtime PM imbalance in venus_probe
+eaadbc84174f 2020-08-27	: fs: dlm: fix configfs memory leak
+03d78253277a 2020-09-02	: media: saa7134: avoid a shift overflow
+4d880c0cba3f 2020-07-27	: mmc: sdio: Check for CISTPL_VERS_1 buffer size
+f44836e96516 2020-08-23	: media: uvcvideo: Ensure all probed info is returned to v4l2
+6fab85f03cfa 2020-04-17	: media: media/pci: prevent memory leak in bttv_probe
+aaa35fd4e124 2020-05-21	: media: bdisp: Fix runtime PM imbalance on error
+e984f79e2df3 2020-05-21	: media: platform: sti: hva: Fix runtime PM imbalance on error
+a4ef57d1cb5a 2020-05-21	: media: platform: s3c-camif: Fix runtime PM imbalance on error
+37b6efc2559a 2020-06-08	: media: vsp1: Fix runtime PM imbalance on error
+7713c060f1c1 2020-06-14	: media: exynos4-is: Fix a reference count leak
+1674941303d3 2020-06-14	: media: exynos4-is: Fix a reference count leak due to pm_runtime_get_sync
+9e701ac75c67 2020-06-14	: media: exynos4-is: Fix several reference count leaks due to pm_runtime_get_sync
+67aff25b8dbe 2020-06-14	: media: sti: Fix reference count leaks
+36d682798e58 2020-06-14	: media: st-delta: Fix reference count leak in delta_run_work
+8134f6b6318c 2020-09-16	: media: ati_remote: sanity check for both endpoints
+6763925003a6 2020-09-20	: media: firewire: fix memory leak
+f87acd2c40df 2020-09-21	: crypto: ccp - fix error handling
+d40a93fabd7f 2020-10-14	: i2c: core: Restore acpi_walk_dep_device_list() getting called after registering the ACPI i2c devs
+6e95be106536 2020-09-21	: perf: correct SNOOPX field offset
+94ae143ca57b 2020-08-11	: NTB: hw: amd: fix an issue about leak system resources
+477dfe7d985a 2020-10-15	: nvmet: fix uninitialized work for zero kato
+b398d1dcf369 2020-10-17	: powerpc/powernv/dump: Fix race while processing OPAL dump
+09ee728260d7 2020-08-24	: arm64: dts: zynqmp: Remove additional compatible string for i2c IPs
+6572359eba06 2020-08-28	: ARM: dts: owl-s500: Fix incorrect PPI interrupt specifiers
+0b1dedc4f0b8 2020-09-15	: arm64: dts: qcom: msm8916: Fix MDP/DSI interrupts
+8db94d79456d 2020-08-27	: memory: fsl-corenet-cf: Fix handling of platform_get_irq() error
+9bff692ae215 2020-08-25	: memory: omap-gpmc: Fix a couple off by ones
+d5ed2625f0a8 2020-08-28	: KVM: x86: emulating RDPID failure shall return #UD rather than #GP
+8904f1e144b4 2020-09-15	: Input: sun4i-ps2 - fix handling of platform_get_irq() error
+c024b1a42ee4 2020-09-15	: Input: twl4030_keypad - fix handling of platform_get_irq() error
+bac6ea43d9ef 2020-09-15	: Input: omap4-keypad - fix handling of platform_get_irq() error
+4cf86bec24fa 2020-09-15	: Input: ep93xx_keypad - fix handling of platform_get_irq() error
+369c1bb55e8b 2020-09-16	: Input: stmfts - fix a & vs && typo
+695976722522 2020-09-14	: Input: imx6ul_tsc - clean up some errors in imx6ul_tsc_resume()
+e9caa4e4ac9f 2020-10-16	: vfio iommu type1: Fix memory leak in vfio_iommu_type1_pin_pages
+1877012c68da 2020-10-19	: vfio/pci: Clear token on bypass registration failure
+7b9009bc09f3 2020-10-01	: ext4: limit entries returned when counting fsmap records
+4a90077585b4 2020-08-09	: clk: bcm2835: add missing release if devm_clk_hw_register fails
+33e742a5c7aa 2020-08-25	: clk: at91: clk-main: update key before writing AT91_CKGR_MOR
+598e40fe3d49 2020-08-03	: PCI: iproc: Set affinity mask on MSI interrupts
+66da98b20b58 2020-08-27	: i2c: rcar: Auto select RESET_CONTROLLER
+e1d8263a5949 2020-10-16	: mailbox: avoid timer start from callback
+8e8bdb139d2d 2020-10-15	: rapidio: fix the missed put_device() for rio_mport_add_riodev
+abb48d0cdec3 2020-10-15	: rapidio: fix error handling path
+2f373fdb25da 2020-10-15	: ramfs: fix nommu mmap with gaps in the page cache
+6f0344af61d5 2020-10-15	: lib/crc32.c: fix trivial typo in preprocessor condition
+83dde43b5072 2020-10-12	: f2fs: wait for sysfs kobject removal before freeing f2fs_sb_info
+72322fd42ee0 2020-10-08	: IB/rdmavt: Fix sizeof mismatch
+e146abfa0e71 2020-09-22	: cpufreq: powernv: Fix frame-size-overflow in powernv_cpufreq_reboot_notifier
+75b270f8d73f 2020-10-03	: powerpc/perf/hv-gpci: Fix starting index value
+37fcf4be0ec3 2020-09-21	: powerpc/perf: Exclude pmc5/6 from the irrelevant PMU group constraints
+ff615d2f2efa 2020-09-13	: overflow: Include header file with SIZE_MAX declaration
+c7d131dae2b5 2020-09-09	: kdb: Fix pager search for multi-line strings
+63cda332a306 2020-09-17	: RDMA/hns: Set the unsupported wr opcode
+98f78dd3caf9 2020-09-09	: perf intel-pt: Fix "context_switch event has no tid" error
+9fb97ac5b1c9 2020-09-05	: powerpc/tau: Disable TAU between measurements
+cbd0b229995b 2020-09-05	: powerpc/tau: Remove duplicated set_thresholds() call
+23237a12625d 2020-09-05	: powerpc/tau: Use appropriate temperature sample interval
+3c6d33035908 2020-09-02	: RDMA/qedr: Fix use of uninitialized field
+1577152a3a13 2020-10-01	: xfs: limit entries returned when counting fsmap records
+f6cb0dcfee62 2020-09-14	: arc: plat-hsdk: fix kconfig dependency warning when !RESET_CONTROLLER
+aa273a3236b6 2020-09-01	: ARM: 9007/1: l2c: fix prefetch bits init in L2X0_AUX_CTRL using DT values
+b26380cfbf04 2020-09-03	: mtd: mtdoops: Don't write panic data twice
+8f781b33b319 2020-05-05	: mtd: lpddr: fix excessive stack usage with clang
+04b709854bb0 2018-07-04	: powerpc/icp-hv: Fix missing of_node_put() in success path
+912991aea862 2018-07-02	: powerpc/pseries: Fix missing of_node_put() in rng_init()
+d0539eb00834 2020-08-03	: IB/mlx4: Adjust delayed work when a dup is observed
+4df76024c06a 2020-08-03	: IB/mlx4: Fix starvation in paravirt mux/demux
+fc7d33941b6f 2020-10-13	: mm, oom_adj: don't loop through tasks in __set_oom_adj when not necessary
+09d2801f3975 2020-10-13	: mm/memcg: fix device private memcg accounting
+11fe3495e92e 2020-10-12	: net: korina: fix kfree of rx/tx descriptor array
+89121da24833 2020-10-04	: mwifiex: fix double free
+4c0ab952c422 2020-09-28	: scsi: be2iscsi: Fix a theoretical leak in beiscsi_create_eqs()
+4abb2c64ae02 2020-09-24	: usb: dwc2: Fix INTR OUT transfers in DDMA mode.
+1718088a3e7a 2020-09-28	: nl80211: fix non-split wiphy information
+424f50e64610 2020-08-19	: usb: gadget: u_ether: enable qmult on SuperSpeed Plus as well
+9144ea5a6cc2 2020-08-25	: usb: gadget: f_ncm: fix ncm_bitrate for SuperSpeed and above.
+a777eb9e28c5 2020-09-30	: iwlwifi: mvm: split a print to avoid a WARNING in ROC
+dc909a96b458 2020-09-11	: mfd: sm501: Fix leaks in probe()
+d5a8eeea37d3 2020-09-29	: net: enic: Cure the enic api locking trainwreck
+c87bee5457d1 2020-09-25	: qtnfmac: fix resource leaks on unsupported iftype error return path
+9fccdf49813e 2020-09-25	: HID: hid-input: fix stylus battery reporting
+d996dee5ff9c 2020-09-24	: quota: clear padding in v2r1_mem2diskdqb()
+285b405b3a4a 2020-07-24	: usb: dwc2: Fix parameter type in function pointer prototype
+00b83a8f5981 2020-09-22	: ALSA: seq: oss: Avoid mutex lock for a long-time ioctl
+4f86b0d9563a 2020-09-20	: misc: mic: scif: Fix error handling path
+cb25d1885d2e 2020-09-18	: ath6kl: wmi: prevent a shift wrapping bug in ath6kl_wmi_delete_pstream_cmd()
+a3cce32a69a2 2020-08-28	: pinctrl: mcp23s08: Fix mcp23x17 precious range
+5aa9c3a05662 2020-08-28	: pinctrl: mcp23s08: Fix mcp23x17_regmap initialiser
+8ef9b6440f89 2020-08-24	: HID: roccat: add bounds checking in kone_sysfs_write_settings()
+b1d39ad83acf 2020-08-05	: video: fbdev: sis: fix null ptr dereference
+cba6da8adcc0 2020-07-23	: video: fbdev: vga16fb: fix setting of pixclock because a pass-by-value error
+84949ad704f6 2020-09-02	: drivers/virt/fsl_hypervisor: Fix error handling path
+de01ce3e40e5 2020-09-03	: pwm: lpss: Add range limit check for the base_unit register value
+d6ccde2f65c3 2020-09-03	: pwm: lpss: Fix off by one error in base_unit math in pwm_lpss_prepare()
+0fb15ffe75d2 2020-09-02	: pty: do tty_flip_buffer_push without port->lock in pty_write
+171408e8ed00 2020-08-20	: tty: hvcs: Don't NULL tty->driver_data until hvcs_cleanup()
+ee042abcf639 2020-08-28	: tty: serial: earlycon dependency
+2b8c7395d275 2020-08-25	: VMCI: check return value of get_user_pages_fast() for errors
+6630474d70c0 2020-08-20	: backlight: sky81452-backlight: Fix refcount imbalance on error
+ca27f1e37747 2020-08-02	: scsi: csiostor: Fix wrong return value in csio_hw_prep_fw()
+17b50b33f64f 2020-08-02	: scsi: qla4xxx: Fix an error handling path in 'qla4xxx_get_host_stats()'
+0a36614ebcaf 2020-08-05	: drm/gma500: fix error check
+b14731f6054c 2020-08-09	: mwifiex: Do not use GFP_KERNEL in atomic context
+2990874f58db 2020-08-02	: brcmfmac: check ndev pointer
+1525c46a8510 2020-08-14	: ASoC: qcom: lpass-cpu: fix concurrency issue
+320354942cf0 2020-08-14	: ASoC: qcom: lpass-platform: fix memory leak
+61afd9570c08 2020-08-02	: wcn36xx: Fix reported 802.11n rx_highest rate wcn3660/wcn3680
+c602739b70f1 2020-08-13	: ath9k: Fix potential out of bounds in ath9k_htc_txcompletion_cb()
+3dd51af5f967 2020-08-13	: ath6kl: prevent potential array overflow in ath6kl_add_new_sta()
+cd27019bc149 2020-08-01	: Bluetooth: hci_uart: Cancel init work before unregistering
+685de75751f1 2020-06-15	: ath10k: provide survey info as accumulated data
+167c3b1f9793 2020-09-26	: regulator: resolve supply after creating regulator
+0cb5c9607f16 2020-06-14	: media: ti-vpe: Fix a missing check and reference count leak
+a4c597c385c4 2020-06-14	: media: s5p-mfc: Fix a reference count leak
+47aa0f3cf46c 2020-06-14	: media: platform: fcp: Fix a reference count leak.
+a44cbb02d349 2020-08-30	: media: tc358743: initialize variable
+7221d0a05449 2020-08-26	: media: mx2_emmaprp: Fix memleak in emmaprp_probe
+c5da13f02748 2020-09-14	: cypto: mediatek - fix leaks in mtk_desc_ring_alloc
+65119594438d 2020-09-07	: crypto: omap-sham - fix digcnt register handling with export/import
+4e439ef0f8c1 2020-08-24	: media: omap3isp: Fix memleak in isp_probe
+068e68ba26d7 2020-06-07	: media: uvcvideo: Set media controller entity functions
+d5ef7f499701 2020-07-19	: media: m5mols: Check function pointer in m5mols_sensor_power
+d23e4a88cea1 2020-08-10	: media: Revert "media: exynos4-is: Add missed check for pinctrl_lookup_state()"
+c338147e5ba6 2020-08-22	: media: tuner-simple: fix regression in simple_set_radio_freq
+2a609fa96a98 2020-08-02	: crypto: ixp4xx - Fix the size used in a 'dma_free_coherent()' call
+bf65f0c0cafb 2020-08-02	: crypto: mediatek - Fix wrong return value in mtk_desc_ring_alloc()
+9751cc18971d 2020-07-31	: crypto: algif_skcipher - EBUSY on aio should be an error
+4495d432d3bf 2020-09-15	: drivers/perf: xgene_pmu: Fix uninitialized resource struct
+f3eabd796e00 2020-09-07	: x86/fpu: Allow multiple bits in clearcpuid= parameter
+4024c42c6bfc 2020-08-26	: EDAC/i5100: Fix error handling order in i5100_init_one()
+0c1171ba3b01 2020-07-31	: crypto: algif_aead - Do not set MAY_BACKLOG on the async path
+d0f7036b1284 2020-09-04	: ima: Don't ignore errors from crypto_shash_update()
+47925a53057a 2020-10-03	: KVM: SVM: Initialize prev_ga_tag before use
+3f73efb3f97c 2020-09-23	: KVM: x86/mmu: Commit zap of remaining invalid pages when recovering lpages
+665ec6970ea5 2020-10-15	: cifs: Return the error from crypt_message when enc/dec key not found.
+0395d8d0cf59 2020-09-16	: cifs: remove bogus debug code
+e1b8b5762352 2020-10-15	: icmp: randomize the global rate limiter
+c042da4b2987 2020-10-22	: tcp: fix to update snd_wl1 in bulk receiver fast path
+8ac1b0a94a72 2020-10-19	: nfc: Ensure presence of NFC_ATTR_FIRMWARE_NAME attribute in nfc_genl_fw_download()
+712777b2bc9b 2020-10-19	: net: hdlc_raw_eth: Clear the IFF_TX_SKB_SHARING flag after calling ether_setup
+63881790add6 2020-10-19	: net: hdlc: In hdlc_rcv, check to make sure dev is an HDLC device
+8ae01b6ed7e0 2020-10-07	: ALSA: bebob: potential info leak in hwdep_read()
+d4c49b6733c3 2020-10-09	: binder: fix UAF when releasing todo list
+7ed96d96bfe9 2020-10-01	: r8169: fix data corruption issue on RTL8402
+af4ccfdb43df 2020-09-23	: net/ipv4: always honour route mtu during forwarding
+cdc27eb1f52f 2020-10-07	: tipc: fix the skb_unshare() in tipc_buf_append()
+732016c026b7 2020-10-08	: net: usb: qmi_wwan: add Cellient MPL200 card
+b09bf8410dcf 2020-10-08	: mlx4: handle non-napi callers to napi_poll
+f6b47285c4a4 2020-10-09	: ipv4: Restore flowi4_oif update before call to xfrm_lookup_route
+cc8a5643ede8 2020-10-13	: ibmveth: Identify ingress large send packets.
+acf6efa6502d 2020-10-13	: ibmveth: Switch order of ibmveth_helper calls.
+6f81e8a709cf 2020-10-28	: regen, some changes in fs/f2fs/Kconfig and kernel/sys.c. Testing to make dtbo.img
+da5287fa0057 2020-10-26	: Merge 4857bc354072128e78b4be4d77992ffbf9871da0 on remote branch
+4857bc354072 2020-10-23	: Merge "msm: ipa: eth: Use ipa_eth_register_ready_cb() to init IPA API"
+fa792f79389c 2020-10-23	: Merge tag 'LA.UM.8.1.r1-16200-sm8150.0' into 11.0
+b84013d2aef0 2020-10-22	: Merge "msm: ipa: create ipa_client for ethernet"
